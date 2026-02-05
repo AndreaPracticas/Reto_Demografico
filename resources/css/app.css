@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-principal: "Source Sans 3", sans-serif;
+    --font-secondary: "Source Code Pro", monospace;
+  }
+}
+
+@layer utilities {
+  .font-principal {
+    font-family: var(--font-principal);
+  }
+
+  .font-secondary {
+    font-family: var(--font-secondary);
+  }
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.hover-pulse:hover {
+  animation: pulseScale 0.8s ease-in-out infinite;
+}
