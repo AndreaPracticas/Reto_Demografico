@@ -2,12 +2,12 @@
     <div class="container mx-auto flex justify-between items-start px-6">
 
         <!-- COLUMNA IZQUIERDA -->
-        <div class="flex flex-col gap-y-4 max-w-md">
+        <div class="flex flex-col gap-y-4 max-w-md pt-10">
 
             <img 
                 src="{{ asset('images/logos-footer/logos-web-congreso-2048x218.png') }}"
                 alt="Logo Gobierno de Canarias"
-                class="h-14 md:h-15 lg:h-15 w-auto max-w-full"
+                class="w-200 h-auto max-w-full object-contain pb-10"
             >
 
             <div class="text-xs leading-relaxed text-left text-[14px]">

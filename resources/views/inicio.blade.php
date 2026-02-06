@@ -45,7 +45,7 @@
             alt="Logos Reto Demográfico" 
             class="w-full h-auto mt-30"
         >
-    <section class="py-23 px-45 pb-20">
+    <section id="analisis" class="py-23 px-45 pb-20">
         <div class="leading-tight text-left pb-15 pt-20 ">
             <h1 class="text-black font-bold text-4xl sm:text-4xl md:text-4xl lg:text-4xl">
                 Herramientas de 
@@ -183,7 +183,7 @@
         alt="Ayudas" 
         class="w-full h-auto mt-30"
     >
-    <section class="px-45 pb-30 pt-17">
+    <section id="estrategia" class="px-45 pb-30 pt-17">
         <div class="leading-tight text-left pb-19 pt-20 ">
             <h1 class="text-black font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl">
                 Estrategia
