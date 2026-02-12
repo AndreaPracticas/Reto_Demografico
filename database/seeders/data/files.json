@@ -1,0 +1,552 @@
+[
+  {
+    "archivo_real": "59.-FICHA_CONV_HE_ZONAS-RURALES_2026.pdf",
+    "nombre": "CONVOCATORIA «IMPULSAR LA COMPETITIVIDAD SOSTENIBLE EN LAS ZONAS RURALES MEDIANTE LA INNOVACIÓN» (HORIZON-CL6-2026-02-COMMUNITIES-01)",
+    "tematica": "Agenda 2030",
+    "subtematica": "Desarrollo Rural",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-02-01 00:00:00",
+    "fecha_cierre": "2026-12-31 23:59:59"
+  },
+  {
+    "archivo_real": "32.-FICHA_ENERCOM_FACILITY.pdf",
+    "nombre": "[2025] PRIMERA CONVOCATORIA DEL FONDO EUROPEO PARA LAS COMUNIDADES ENERGÉTICAS (ENERCOM FACILITY), FINANCIADA POR LA UE A TRAVÉS DEL PROGRAMA LIFE",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "22.-FICHA_PREMIOS_-CIUDAD_ACCESIBLE.pdf",
+    "nombre": "PREMIOS CIUDAD ACCESIBLE 2026",
+    "tematica": "Planificación",
+    "subtematica": "Movilidad",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "3.-FICHA_LIFE_2025_Resumen-General.pdf",
+    "nombre": "CONVOCATORIA LIFE 2025",
+    "tematica": "Transición ecológica",
+    "subtematica": "Cambio climático",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "49.-FICHA_BLUEACTIONAA.pdf",
+    "nombre": "CONVOCATORIA BLUEACTIONAA – COMMUNITY-LED PILOT ACTION",
+    "tematica": "Transición ecológica",
+    "subtematica": "Economía azul",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240516_LIFE-SAP-ENV.pdf",
+    "nombre": "SUBVENCIONES PARA ACCIONES DE LA UNIÓN EUROPEA EN EL ÁMBITO DE NATURALEZA Y BIODIVERSIDAD (LIFE-2024-SAP-NAT)",
+    "tematica": "Transición ecológica",
+    "subtematica": "Biodiversidad",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "40.-FICHA_3a_CONV_INTERREG_MAC.pdf",
+    "nombre": "TERCERA CONVOCATORIA DEL PROGRAMA DE COOPERACIÓN TERRITORIAL INTERREG VI-D MADEIRA-AZORES-CANARIAS (MAC) 2021-2027.",
+    "tematica": "Transición ecológica",
+    "subtematica": "Cambio climático",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "12.-FICHA_P2R_2025_Resumen.pdf",
+    "nombre": "[2025]SEGUNDA CONVOCATORIA DE SUBVENCIONES PATHWAYS2RESILIENCE",
+    "tematica": "Transición ecológica",
+    "subtematica": "Cambio climático",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240516_LIFE-SAP-CLIMA.pdf",
+    "nombre": "SUBVENCIONES PARA ACCIONES DE LA UNIÓN EUROPEA EN EL ÁMBITO DE LA MITIGACIÓN Y ADAPTACIÓN AL CAMBIO CLIMÁTICO (LIFE-2024-SAP-CLIMA)",
+    "tematica": "Transición ecológica",
+    "subtematica": "Cambio climático",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240516_LIFE-SAP-NAT.pdf",
+    "nombre": "SUBVENCIONES PARA ACCIONES DE LA UNIÓN EUROPEA EN EL ÁMBITO DE ECONOMÍA CIRCULAR Y CALIDAD DE VIDA (LIFE-2024-SAP-ENV)",
+    "tematica": "Transición ecológica",
+    "subtematica": "Economía Circular",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "48.-FICHA_PREMIOS_CAPITAL_Y_HOJA_VERDE_EU.pdf",
+    "nombre": "CONVOCATORIA DE PREMIOS CAPITAL Y HOJA VERDE EUROPEA 2028",
+    "tematica": "Transición ecológica",
+    "subtematica": "Entorno saludable",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240806_CONNECT_NEB.pdf",
+    "nombre": "CONNECT NEB",
+    "tematica": "Transición ecológica",
+    "subtematica": "Entorno saludable",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240807_CO-CREATE_NEB.pdf",
+    "nombre": "CO-CREATE NEB (New European Bauhaus) - Comunidades locales y autoridades públicas construyendo espacios públicos sostenibles, bonitos e inclusivos",
+    "tematica": "Transición ecológica",
+    "subtematica": "Entorno saludable",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "19.-FICHA_NEB_FACILITY_2025.pdf",
+    "nombre": "PRIMERA CONVOCATORIA DE LA NEB FACILITY, CENTRADA EN LA TRANSFORMACIÓN SOSTENIBLE, INCLUSIVA Y BELLA DE LOS BARRIOS EUROPEOS",
+    "tematica": "Transición ecológica",
+    "subtematica": "Entorno saludable",
+    "ambito": "Europeas",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "41.-FICHA_CONV_KIT_ESPACIO_DATOS.pdf",
+    "nombre": "AYUDAS DESTINADAS A LA TRANSFORMACIÓN DIGITAL DE LOS SECTORES PRODUCTIVOS ESTRATÉGICOS MEDIANTE EL FOMENTO DE LA ADAPTACIÓN E INCORPORACIÓN DE PARTICIPANTES A LOS ESPACIOS DE DATOS, EN EL MARCO DEL PRTR (PROGRAMA KIT ESPACIOS DE DATOS)",
+    "tematica": "Agenda 2030",
+    "subtematica": "Digitalización",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "53.-FICHA_PROG_CIUDADES_INTELIGENTES-modificada.pdf",
+    "nombre": "CONVOCATORIA PARA LA CONCESIÓN DE AYUDAS DESTINADAS AL «PROGRAMA DE IMPULSO A LAS CIUDADES Y TERRITORIOS INTELIGENTES PARA EL FOMENTO DEL DESARROLLO ECONÓMICO Y PRODUCTIVO»",
+    "tematica": "Agenda 2030",
+    "subtematica": "Digitalización",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "13.-FICHA_AGENDA-2030_-EELL_2025.pdf",
+    "nombre": "SUBVENCIONES DESTINADAS A ACCIONES PARA EL IMPULSO DE LA AGENDA 2030 EN LAS ENTIDADES LOCALES - CONVOCATORIA 2025.",
+    "tematica": "Agenda 2030",
+    "subtematica": "Agenda 2030",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240620_AGENDA_2030.pdf",
+    "nombre": "SUBVENCIONES DESTINADAS A ACCIONES PARA EL IMPULSO DE LA AGENDA 2030 EN LAS ENTIDADES LOCALES",
+    "tematica": "Agenda 2030",
+    "subtematica": "Agenda 2030",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_24071_CAPACITACION_DIGITAL.pdf",
+    "nombre": "AYUDAS DESTINADAS A LA CREACIÓN DE UNA RED DE CENTROS DE CAPACITACIÓN DIGITAL EN ENTIDADES LOCALES PARA EL EJERCICIO ECONÓMICO DEL AÑO 2024, EN EL MARCO DEL PRTR",
+    "tematica": "Agenda 2030",
+    "subtematica": "Digitalización",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240223_RETO_RURAL_DIGITAL.pdf",
+    "nombre": "SUBVENCIONES DEL PROGRAMA “RETO RURAL DIGITAL” PARA PROYECTOS DE CAPACITACIÓN DIGITAL, EN EL MARCO DEL PRTR",
+    "tematica": "Agenda 2030",
+    "subtematica": "Digitalización",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240611_DTI.pdf",
+    "nombre": "CONCESIÓN DE AYUDAS PARA EL DESPLIEGUE DE PLATAFORMAS TECNOLÓGICAS Y SOLUCIONES DIGITALES EN LOS DESTINOS DE LA RED DE DESTINOS TURÍSTICOS INTELIGENTES, EN EL MARCO DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA",
+    "tematica": "Agenda 2030",
+    "subtematica": "Digitalización",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240703_RETO_DEMOGRAFICO.pdf",
+    "nombre": "SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS PROMOVIDOS POR ENTIDADES LOCALES PARA LA FINANCIACIÓN DE PROYECTOS INNOVADORES PARA LA TRANSFORMACIÓN TERRITORIAL Y LA LUCHA CONTRA LA DESPOBLACIÓN",
+    "tematica": "Agenda 2030",
+    "subtematica": "Reto Demográfico",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "56.-FICHA_PROG_RENOCOGEN.pdf",
+    "nombre": "SEGUNDA CONVOCATORIA DEL PROGRAMA DE INCENTIVOS PARA PROYECTOS DE PRODUCCIÓN DE ELECTRICIDAD Y CALOR A PARTIR DE ENERGÍAS RENOVABLES EN SUSTITUCIÓN DE PRODUCCIÓN A PARTIR DE COMBUSTIBLES FÓSILES, EN EL MARCO DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA.",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_PROY_ENERGIAS_RENOVABLES.pdf",
+    "nombre": "SEGUNDA CONVOCATORIA DEL PROGRAMA DE INCENTIVOS DE PROYECTOS INNOVADORES DE ENERGÍAS RENOVABLES Y ALMACENAMIENTO, ASÍ COMO A LA IMPLEMENTACIÓN DE SISTEMAS TÉRMICOS RENOVABLES (EERR INNOVADORAS)",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_PROG_REPOTENCIACION_CIRCULAR.pdf",
+    "nombre": "SEGUNDA CONVOCATORIA DE LOS PROGRAMAS \"REPOTENCIACIÓN CIRCULAR\" PARA LA CONCESIÓN DE AYUDAS A LA INVERSIÓN EN LA REPOTENCIACIÓN DE INSTALACIONES EÓLICAS Y EN LA RENOVACIÓN TECNOLÓGICA Y MEDIOAMBIENTAL DE MINICENTRALES HIDROELÉCTRICAS DE HASTA 50 MW FINANCIADO POR FONDOS EUROPEOS",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "55.-FICHA_PROG_RENORED.pdf",
+    "nombre": "SEGUNDA CONVOCATORIA DE PROGRAMAS DE INCENTIVOS A PROYECTOS DE REDES DE CALOR Y FRÍO QUE UTILICEN FUENTES DE ENERGÍA RENOVABLE (PROGRAMA RENORED)",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_020125_PERTE_AGUA.pdf",
+    "nombre": "SUBVENCIONES DE PROYECTOS DE MEJORA DE LA EFICIENCIA DEL CICLO URBANO DEL AGUA (PERTE DIGITALIZACIÓN DEL CICLO DEL AGUA), EN EL MARCO DEL PRTR",
+    "tematica": "Agua y Energía",
+    "subtematica": "Agua",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240820_CE_IMPLEMENTA.pdf",
+    "nombre": "QUINTA CONVOCATORIA DE SUBVENCIONES DEL NUEVO PROGRAMA DE INCENTIVOS A PROYECTOS PILOTO SINGULARES DE COMUNIDADES ENERGÉTICAS (PROGRAMA CE IMPLEMENTA), EN EL MARCO DEL PRTR",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240821_CE_IMPLEMENTA_6aconvocatoria.pdf",
+    "nombre": "SEXTA CONVOCATORIA DE SUBVENCIONES DEL NUEVO PROGRAMA DE INCENTIVOS A PROYECTOS PILOTO SINGULARES DE COMUNIDADES ENERGÉTICAS (PROGRAMA CE IMPLEMENTA), EN EL MARCO DEL PRTR",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "15.-FICHA_BIOECONOMIA_2025.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES DE LA FUNDACIÓN BIODIVERSIDAD, F.S.P., EN RÉGIMEN DE CONCURRENCIA COMPETITIVA, PARA APOYO A PROGRAMAS Y PROYECTOS DE IMPULSO A LA BIOECONOMÍA, COFINANCIADA POR EL FONDO EUROPEO DE DESARROLLO REGIONAL (FEDER).",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Economía",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "Ficha_240112_IMPULSO_ECO_SOCIAL_2024_2025.pdf",
+    "nombre": "[2024] AYUDAS PARA EL PLAN INTEGRAL DE IMPULSO A LA ECONOMÍA SOCIAL PARA LA GENERACIÓN DE UN TEJIDO ECONÓMICO, INCLUSIVO Y SOSTENIBLE, EN EL MARCO DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA. PERTE DE LA ECONOMÍA SOCIAL Y DE LOS CUIDADOS. PERIODO 2024 - 2025 (PERTE Economía Social y de los Cuidados)",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Economía",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240326_EMPLEAVERDE.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA LA ADQUISICIÓN O MEJORA DE COMPETENCIAS PARA LA TRANSICIÓN ECOLÓGICA, EN EL MARCO DEL PROGRAMA EMPLEAVERDE+",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Empleo",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "1.-FICHA_PROGRAMA-EMPLEAVERDE_-2025.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES DE LA FUNDACIÓN BIODIVERSIDAD F.S.P. PARA LA ADQUISICIÓN O MEJORA DE COMPETENCIAS VINCULADAS A LA TRANSICIÓN ECOLÓGICA, EN EL MARCO DEL PROGRAMA EMPLEAVERDE+, COFINANCIADO POR EL FONDO SOCIAL EUROPEO PLUS EN 2025",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Empleo",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "9_FICHA_240402_RECUPERA.pdf",
+    "nombre": "SUBVENCIÓN PARA RECUPERACION DAÑOS EN INFRAESTRUCTURAS MUNICIPALES Y RED VIARIA PROVINCIAL E INSULAR.",
+    "tematica": "Recuperación",
+    "subtematica": "Recuperación",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "47.-FICHA_ECOSISTEMAS_INNOVACION.pdf",
+    "nombre": "CONVOCATORIA DE AYUDAS DESTINADAS A ECOSISTEMAS DE INNOVACIÓN Y TRANSFERENCIA, VINCULADOS AL PLAN COMPLEMENTARIO DE TRANSFERENCIA DE CONOCIMIENTO, COFINANCIADA POR EL FONDO EUROPEO DE DESARROLLO REGIONAL (FEDER), EN EL MARCO DEL PEICTI 2024-2027.",
+    "tematica": "Transición ecológica",
+    "subtematica": "Innovación",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "36.-FICHA_RETO_DEMOGRAFICO-EELL.pdf",
+    "nombre": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS INNOVADORES PARA LA TRANSFORMACIÓN TERRITORIAL Y LA LUCHA CONTRA LA DESPOBLACIÓN, PROMOVIDOS POR ENTIDADES LOCALES, DURANTE EL EJERCICIO 2025.",
+    "tematica": "Transición ecológica",
+    "subtematica": "Reto demográfico",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "34.-Convocatorias-EDIL_modificada.pdf",
+    "nombre": "[2025] SUBVENCIONES EDIL: FONDOS FEDES PARA EL DESARROLLO INTEGRADO LOCAL",
+    "tematica": "Transición ecológica",
+    "subtematica": "Entorno urbano",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_020125_INFRAESTRUCTURA_VERDE.pdf",
+    "nombre": "[2025] SUBVENCIONES DE LA FUNDACIÓN BIODIVERSIDAD EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA EL FOMENTO DE ACTUACIONES DIRIGIDAS AL DESARROLLO Y CONSOLIDACIÓN DE LA INFRAESTRUCTURA VERDE PARA LA RENATURALIZACIÓN Y RESILIENCIA DE CIUDADES ESPAÑOLAS, COFINANCIADAS POR EL FEDER",
+    "tematica": "Transición ecológica",
+    "subtematica": "Infraestructura verde",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "Ficha_231215_AIS_PARQUES_NACIONALES_CANARIAS_2024.pdf",
+    "nombre": "[2024] FINANCIACIÓN DE ACTUACIONES EN ÁREAS DE INFLUENCIA SOCIOECONÓMICAS DE LOS PARQUES NACIONALES, FINANCIADAS CON CARGO AL PLAN DE RECUPERACIÓN TRANSFORMACIÓN Y RESILIENCIA, COMPONENTE 4, INVERSIÓN 2, EN EL MARCO DE LOS FONDOS EUROPEOS DE RECUPERACIÓN \"NEXT GENERATION EU\"",
+    "tematica": "Transición ecológica",
+    "subtematica": "Entorno saludable",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "2.-FICHA_-PROGRAMA-PLEAMAR_2025.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES POR LA FUNDACIÓN BIODIVERSIDAD F.S.P. PARA EL FOMENTO DE LA ECONOMÍA AZUL Y EL IMPULSO DE LA SOSTENIBILIDAD PESQUERA Y ACUÍCOLA, EN EL MARCO DEL PROGRAMA PLEAMAR, COFINANCIADO POR EL FONDO EUROPEO MARÍTIMO, DE PESCA Y DE ACUICULTURA (FEMPA) EN 2025.",
+    "tematica": "Transición ecológica",
+    "subtematica": "Biodiversidad - Economía azul",
+    "ambito": "Nacionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "58.-FICHA_SD_RETO-DEMOGRAFICO.pdf",
+    "nombre": "Subvención directa en materia de Planificación Territorial y Reto Demográfico.",
+    "tematica": "Agenda 2030",
+    "subtematica": "Reto Demográfico",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_241114_DESARROLLO_RURAL_CANARIAS.pdf",
+    "nombre": "[2024] SUBVENCIONES DESTINADAS A LA REALIZACIÓN DE LAS OPERACIONES CONFORME A LA ESTRATEGIA DE DESARROLLO LOCAL PARTICIPATIVO PREVISTAS EN LA SUBMEDIDA 19.2 DEL PROGRAMA DE DESARROLLO RURAL DE LA REGIÓN DE CANARIAS (CONVOCATORIA 2024)",
+    "tematica": "Agenda 2030",
+    "subtematica": "Desarrollo rural",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "14.-FICHA_RIEGO-AGRICOLA_2025.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES DESTINADAS A ABARATAR EL SOBRECOSTE DE LA EXTRACCIÓN DE AGUA DE POZOS Y DE GALERÍAS, DE LA DESALACIÓN Y/O DE PRODUCCIÓN DE AGUAS REGENERADAS PARA EL RIEGO AGRÍCOLA EN CANARIAS.",
+    "tematica": "Agua y Energía",
+    "subtematica": "Agua",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "10_FICHA_240415_SOBRECOSTE_RIEGO_AGRICOLA.pdf",
+    "nombre": "[2024] SUBVENCIONES DESTINADAS A ABARATAR EL SOBRECOSTE DE LA EXTRACCIÓN DE AGUA DE POZOS Y DE GALERÍAS, DE LA DESALACIÓN Y/O DE PRODUCCIÓN DE AGUAS REGENERADAS PARA EL RIEGO AGRÍCOLA EN CANARIAS",
+    "tematica": "Agua y Energía",
+    "subtematica": "Agua",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "17.-FICHA_TRANS_VERDE_2025.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES PARA EL EJERCICIO 2025 PARA LA \"TRANSICIÓN VERDE\", COFINANCIADAS EN EL ÁMBITO DEL PROGRAMA FEDER CANARIAS 2021-2027",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_250414_ENERGIA-RENOVABLE.pdf",
+    "nombre": "[2025] COMUNICADO SUBVENCIONES DESTINADAS AL FOMENTO DE LA GENERACIÓN ELÉCTRICA RENOVABLE, EL AUTOCONSUMO Y LA DESCARBONIZACIÓN DEL ARCHIPIÉLAGO CANARIO",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240304_PREE5000.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA ACTUACIONES DE REHABILITACIÓN ENERGÉTICA EN EDIFICIOS EXISTENTES EN MUNICIPIOS DE RETO DEMOGRÁFICO (PROGRAMA PREE 5000)",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240429_ENERGIAS_RENOVABLES_TERMICAS.pdf",
+    "nombre": "[2024] PROGRAMA DE INCENTIVOS PARA LA IMPLANTACIÓN DE INSTALACIONES DE ENERGÍAS RENOVABLES TÉRMICAS EN DIFERENTES SECTORES DE LA ECONOMÍA, EN EL MARCO DEL PRTR",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240911_FOTOVOLTAICA_ESPACIOS_ANTROPIZADOS.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA EL FOMENTO DE LA GENERACIÓN FOTOVOLTAICA EN ESPACIOS ANTROPIZADOS, EN EL MARCO DE LA ESTRATEGIA DE ENERGÍA SOSTENIBLE EN LAS ISLAS CANARIAS, CON CARGO AL PRTR",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240912_COMUNIDADES_ENERGETICAS.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA LA CREACIÓN Y EL FUNCIONAMIENTO DE COMUNIDADES ENERGÉTICAS, EN EL MARCO DE LA ESTRATEGIA DE ENERGÍA SOSTENIBLE EN LAS ISLAS CANARIAS, CON CARGO AL PRTR",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240924_TRANSICION_VERDE.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA LA \"TRANSICIÓN VERDE\", COFINANCIADAS EN EL ÁMBITO DEL PROGRAMA FEDER CANARIAS 2021-2027",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_241007_ENERGIAS_RENOVABLES_INNOVADORAS.pdf",
+    "nombre": "[2024] PROGRAMA DE ENERGÍAS RENOVABLES INNOVADORAS",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_241104_COMUNIDADES_ENERGETICAS-modificada-ampliacion-de-plazo.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA EL FOMENTO DE LA GENERACIÓN FOTOVOLTAICA EN ESPACIOS ANTROPIZADOS, EN EL MARCO DE LA ESTRATEGIA DE ENERGÍA SOSTENIBLE EN LAS ISLAS CANARIAS, CON CARGO AL PRTR",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_241104_FOTOVOLTAICA_ESPACIOS_ANTROPIZADOS-modificada-ampliacion-de-plazo.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA LA CREACIÓN Y EL FUNCIONAMIENTO DE COMUNIDADES ENERGÉTICAS, EN EL MARCO DE LA ESTRATEGIA DE ENERGÍA SOSTENIBLE EN LAS ISLAS CANARIAS, CON CARGO AL PRTR",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "31.-FICHA_FOTOVOLTAICA_ESP_ANTROPIZADOS-ampliacion-plazo.pdf",
+    "nombre": "[2025]CONVOCATORIA DE SUBVENCIONES PARA EL FOMENTO DE LA GENERACIÓN FOTOVOLTAICA EN ESPACIOS ANTROPIZADOS, EN EL MARCO DE LA ESTRATEGIA DE ENERGÍA SOSTENIBLE EN LAS ISLAS CANARIAS (PROGRAMA 8, LÍNEA 1), CON CARGO AL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA (COMPONENTE 7, INVERSIÓN 2)",
+    "tematica": "Agua y Energía",
+    "subtematica": "Energía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  }
+]

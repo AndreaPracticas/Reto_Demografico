@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('files', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('pdf_path');
 
             $table->foreignId('theme_id')
                 ->constrained('themes');

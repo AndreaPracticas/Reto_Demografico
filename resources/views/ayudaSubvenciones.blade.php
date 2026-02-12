@@ -7,7 +7,7 @@
 @endphp
 
 <!-- Selector de ámbito -->
-<section class="space-y-6 pt-22">
+<section class="pt-22">
 
     <!-- Imagen -->
     <div class="grid grid-cols-3 gap-1 bg-white">
@@ -31,26 +31,44 @@
         </div>
     </div>
 
-    <!-- Selector -->
-    <div class="grid grid-cols-3">
-        @foreach (['regional','national','european'] as $s)
-            <button
-                hx-get="/ayudasysubvenciones/filter?scope={{ $s }}"
-                hx-target="#content"
-                hx-swap="innerHTML"
-                class="
-                    px-6 py-3
-                    text-sm font-medium
-                    transition
-                    {{ $scope === $s 
-                        ? 'bg-[#E2E2E2] text-black shadow-lg' 
-                        : 'bg-white text-gray-700'
-                    }}
-                ">
-                {{ ucfirst($s) }}
-            </button>
-        @endforeach
+    <!-- Selector Scope -->
+    <div class="w-full bg-[#E2E2E2] rounded-xl overflow-hidden">
+        <div class="grid grid-cols-1 md:grid-cols-3">
+            @foreach (['regionales','nationales','europeas'] as $s)
+                <button
+                    hx-get="/ayudasysubvenciones/filter?scope={{ $s }}"
+                    hx-target="#content"
+                    hx-swap="innerHTML"
+                    class="
+                        relative
+                        flex items-center justify-center
+                        px-6 py-6
+                        text-[28px] md:text-[33px]
+                        font-semibold
+                        transition-all duration-300
+                        bg-[#E2E2E2]
+                        hover:bg-[#DADADA]
+                        {{ $scope === $s 
+                            ? 'shadow-[0_8px_25px_rgba(0,0,0,0.35)] z-10' 
+                            : '' 
+                        }}
+                    "
+                >
+
+                    {{-- Línea naranja lateral (solo activo) --}}
+                    @if($scope === $s)
+                        <span class="absolute left-0 top-0 h-full w-2 bg-orange-500"></span>
+                    @endif
+
+                    <span class="tracking-wide">
+                        {{ ucfirst($s) }}
+                    </span>
+
+                </button>
+            @endforeach
+        </div>
     </div>
+
 </section>
 
 <div class="pt-24 px-6 max-w-7xl mx-auto space-y-10">

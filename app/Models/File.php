@@ -9,10 +9,12 @@ class File extends Model
 {
     use HasFactory;
 
+    // No usamos timestamps automáticos porque la migración solo tiene created_at personalizado
     public $timestamps = false;
 
     protected $fillable = [
         'name',
+        'pdf_path',        // agregado
         'theme_id',
         'subtheme_id',
         'scope_id',
@@ -20,6 +22,8 @@ class File extends Model
         'reopening_date',
         'closing_date',
     ];
+
+    // Relationships
 
     // File belongs to a theme
     public function theme()
@@ -33,10 +37,10 @@ class File extends Model
         return $this->belongsTo(Subtheme::class);
     }
 
-    // File belongs to a scope
-    public function scope()
+    // File belongs to a scope (renombrado para evitar conflicto con método scope de Eloquent)
+    public function scopeRelation()
     {
-        return $this->belongsTo(Scope::class);
+        return $this->belongsTo(Scope::class, 'scope_id');
     }
 
     // File belongs to a user (author)
