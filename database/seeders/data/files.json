@@ -548,5 +548,355 @@
     "usuario_correo": "test@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_241114_GESTION_SOSTENIBLE_INFRAESTRUCTURAS_CULTURA.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA LA MODERNIZACIÓN Y GESTIÓN SOSTENIBLE DE LAS INFRAESTRUCTURAS DE LAS ARTES ESCÉNICAS Y MUSICALES, EN EL MARCO DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA, FINANCIADO POR LA UNIÓN EUROPEA NEXT GENERATION EU",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "27.-FICHA_PROY_CULTURALES.pdf",
+    "nombre": "[2025] SUBVENCIONES PARA LA REALIZACIÓN DE PROYECTOS CULTURALES Y CREATIVOS 2025. GRAN CANARIA",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_PROGRAMA-INTEGRAL-DE-EMPLEO.pdf",
+    "nombre": "SUBVENCIONES PARA LA PUESTA EN PRÁCTICA DE PROGRAMAS INTEGRALES DE EMPLEO, DESTINADOS A FAVORECER LA INTEGRACIÓN LABORAL DE LAS PERSONAS DESEMPLEADAS EN RIESGO DE EXCLUSIÓN SOCIAL, EN EL EJERCICIO 2026",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Empleo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "54.-FICHA_PROY_EMPLEO_FORM_2026.pdf",
+    "nombre": "CONVOCATORIA ANTICIPADA PARA LA CONCESIÓN DE SUBVENCIONES DESTINADAS AL DESARROLLO DE PROYECTOS DE EMPLEO-FORMACIÓN, EN COLABORACIÓN CON LAS CORPORACIONES LOCALES MUNICIPALES DE LA COMUNIDAD AUTÓNOMA DE CANARIAS, DIRIGIDOS A MEJORAR LA EMPLEABILIDAD DE LAS PERSONAS PARADAS DE LARGA DURACIÓN, EN EL EJERCICIO 2026",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Empleo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "45.-FICHA_EMPLEO_CABILDOS-CONV-EXTRA-2025.pdf",
+    "nombre": "[2025] CONVOCATORIA EXTRAORDINARIA PARA LA CONCESIÓN DE SUBVENCIONES PÚBLICAS DESTINADAS AL DESARROLLO DE PROYECTOS GENERADORES DE EMPLEO, EN COLABORACIÓN CON LOS CABILDOS INSULARES Y/O SUS ENTIDADES PÚBLICAS VINCULADAS O DEPENDIENTES , EN LOS QUE SE INCORPOREN PLANES DE FORMACIÓN QUE MEJOREN LA EMPLEABILIDAD DE LOS TRABAJADORES PARTICIPANTES, DIRIGIDOS A JÓVENES INSCRITOS EN EL SISTEMA NACIONAL DE GARANTÍA JUVENIL - PROGRAMA FSE+ CANARIAS 2021-2027.",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Empleo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "38.-FICHA_PFAE_2025.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES DESTINADAS A LA FINANCIACIÓN DE PROYECTOS DE FORMACIÓN EN ALTERNANCIA CON EL EMPLEO (PFAE) PARA EL EJERCICIO 2025.",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Empleo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "28.-FICHA_PROY_EMPLEO_FORM-ampliacion-plazo.pdf",
+    "nombre": "[2025] CONVOCATORIA PARA CONCEDER SUBVENCIONES DESTINADAS AL DESARROLLO DE PROYECTOS DE EMPLEO-FORMACIÓN, EN COLABORACIÓN CON LAS CORPORACIONES LOCALES MUNICIPALES DE LA COMUNIDAD AUTÓNOMA DE CANARIAS, DIRIGIDOS A MEJORAR LA EMPLEABILIDAD DE LAS PERSONAS PARADAS DE LARGA DURACIÓN, EN EL EJERCICIO 2025",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Empleo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "23.-FICHA_EMPLEO_CABILDOS.pdf",
+    "nombre": "[2025] SUBVENCIONES PÚBLICAS DESTINADAS AL DESARROLLO DE PROYECTOS GENERADORES DE EMPLEO, EN COLABORACIÓN CON LOS CABILDOS INSULARES",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Empleo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "24.-FICHA_SECTOR_COMERCIAL-ampliacion-plazo.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES PARA LA TRANSFORMACIÓN DEL SECTOR COMERCIAL CON EL FIN DE CONVERTIR CANARIAS EN UN DESTINO COMERCIAL INTELIGENTE",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Economía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "25.-FICHA_SECTOR-PRIMARIO_LA-PALMA.pdf",
+    "nombre": "[2025] SUBVENCIONES PARA LA CELEBRACIÓN DE CONCURSOS, CERTÁMENES, MUESTRAS Y FERIAS DEL SECTOR PRIMARIO (LÍNEA 4.1). LA PALMA",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Economía",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_250310_ZCA.pdf",
+    "nombre": "[2025] CONVOCATORIA SUBVENCIONES A PROYECTOS DE EQUIPAMIENTOS COMPLEMENTARIOS Y OTRAS ACTUACIONES PARA EL DESARROLLO DE LAS ZONAS COMERCIALES ABIERTAS DE CANARIAS",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Comercio y turismo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_250314_MERCADOS-TRADICIONALES.pdf",
+    "nombre": "[2025] SUBVENCIONES A PROYECTOS DE MEJORA DE LOS MERCADOS TRADICIONALES DE CANARIAS Y OTRAS ACTUACIONES DE APOYO AL COMERCIO RURAL",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Comercio y turismo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240117_RESILIENCIA-TURISTICA-CANARIAS.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA FINANCIAR PROYECTOS DE LA ESTRATEGIA DE RESILIENCIA TURÍSTICA EN CANARIAS, DENTRO DEL PROGRAMA DE ACTUACIONES CON ENTIDADES LOCALES EN INFRAESTRUCTURAS TURÍSTICAS, EN EL MARCO DEL PRTR",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Comercio y turismo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "14_FICHA_240524_SECTOR_COMERCIAL.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA LA TRANSFORMACIÓN DEL SECTOR COMERCIAL EN CANARIAS, COFINANCIADAS POR LA UNIÓN EUROPEA EN EL MARCO DEL PROGRAMA FEDER CANARIAS 2021-2027",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Comercio y turismo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "16_FICHA_240605_MDOS_TRADICIONALES.pdf",
+    "nombre": "[2024] SUBVENCIONES A PROYECTOS DE MEJORA DE LOS MERCADOS TRADICIONALES DE CANARIAS Y OTRAS ACTUACIONES DE APOYO AL COMERCIO RURAL",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Comercio y turismo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "16_FICHA_240605_ZCA.pdf",
+    "nombre": "[2024] SUBVENCIONES A PROYECTOS DE EQUIPAMIENTOS COMPLEMENTARIOS Y OTRAS ACTUACIONES PARA EL DESARROLLO DE LAS ZONAS COMERCIALES ABIERTAS DE CANARIAS",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Comercio y turismo",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "43.-FICHA_RED_CIDE.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES PARA LA PARTICIPACIÓN EN LA RED CANARIA DE CENTROS DE INNOVACIÓN Y DESARROLLO EMPRESARIAL (CIDE), COFINANCIADAS POR EL PROGRAMA FEDER CANARIAS 2021-2027, EN TRAMITACIÓN ANTICIPADA PARA EL AÑO 2026.",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Innovación",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "33.-FICHA_COMPRA_INNOVACION.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES PARA LA COMPRA PÚBLICA DE INNOVACIÓN (CPI), COFINANCIADAS A TRAVÉS DEL PROGRAMA FEDER CANARIAS 2021-2027",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Innovación",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "V2_FICHA_250401_PMUS.pdf",
+    "nombre": "[2025] SUBVENCIONES DESTINADAS A LA ELABORACIÓN, ACTUALIZACIÓN E IMPLEMENTACIÓN DE LOS PMUS POR LOS AYUNTAMIENTOS DE CANARIAS CON POBLACIÓN DE HASTA 100.000 HABITANTES, CORRESPONDIENTE A LA ANUALIDAD 2025",
+    "tematica": "Planificación",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240429_MOVESIII.pdf",
+    "nombre": "[2024] AYUDA A LA MOVILIDAD ELÉCTRICA (PROGRAMA MOVES III)",
+    "tematica": "Planificación",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240429_SECTOR_DEL_TAXI-modificada.pdf",
+    "nombre": "[2024] SUBVENCIONES EN RÉGIMEN DE CONCURRENCIA NO COMPETITIVA PARA EL DESPLIEGUE DEL VEHÍCULO ELÉCTRICO E INFRAESTRUCTURAS DE RECARGA EN EL SECTOR DEL TAXI, EN EL MARCO DE LA ESTRATEGIA DE ENERGÍA SOSTENIBLE EN LAS ISLAS CANARIAS",
+    "tematica": "Planificación",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240626_PMUS.pdf",
+    "nombre": "[2024] SUBVENCIONES EN RÉGIMEN DE CONCURRENCIA COMPETITIVA DESTINADAS A LA ELABORACIÓN, ACTUALIZACIÓN E IMPLEMENTACIÓN DE LOS PLANES DE MOVILIDAD URBANA SOSTENIBLE (PMUS) POR LOS AYUNTAMIENTOS DE CANARIAS CON POBLACIÓN DE HASTA 100.000 HABITANTES",
+    "tematica": "Planificación",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240801_MOVES-III-ampliacion-presupuesto-y-plazo.pdf",
+    "nombre": "[2024] AYUDAS A LA MOVILIDAD ELÉCTRICA (PROGRAMA MOVES III)",
+    "tematica": "Planificación",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "34.-FICHA_INFRAEST_TRANSPORTE_GC.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES A LOS AYUNTAMIENTOS DE GRAN CANARIA DESTINADAS AL PROGRAMA DE MEJORA DE LAS INFRAESTRUCTURAS DE TRANSPORTE QUE REFUERCEN LA MOVILIDAD SOSTENIBLE EN EL AÑO 2025",
+    "tematica": "Planificación",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "42.-FICHA_INST_ORDENACION_URBAN_FINALIZADOS.pdf",
+    "nombre": "[2025]CONVOCATORIA DE SUBVENCIONES DESTINADAS A LOS AYUNTAMIENTOS DE LA COMUNIDAD AUTÓNOMA DE CANARIAS PARA LA REDACCIÓN, ACTUALIZACIÓN O MODIFICACIÓN, MENOR O SUSTANCIAL, DE LOS INSTRUMENTOS DE ORDENACIÓN URBANÍSTICA FINALIZADOS Y ABONADOS QUE SE CORRESPONDAN CON LOS EJERCICIOS 2021, 2022 Y 2024",
+    "tematica": "Planificación",
+    "subtematica": "Planeamiento",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "18_FICHA_INST_ORDENACION_URBANA_2025.pdf",
+    "nombre": "[2025] SUBVENCIONES DESTINADAS A LOS AYUNTAMIENTOS DE LA COMUNIDAD AUTÓNOMA DE CANARIAS PARA LA REDACCIÓN, ACTUALIZACIÓN O MODIFICACIÓN, MENOR O SUSTANCIAL, DE LOS INSTRUMENTOS DE ORDENACIÓN URBANÍSTICA",
+    "tematica": "Planificación",
+    "subtematica": "Planeamiento",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240515_PGO.pdf",
+    "nombre": "[2024] SUBVENCIONES DESTINADAS A LOS AYUNTAMIENTOS DE LA COMUNIDAD AUTÓNOMA DE CANARIAS PARA LA REDACCIÓN DEL PLAN GENERAL DEL MUNICIPIO",
+    "tematica": "Planificación",
+    "subtematica": "Planeamiento",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "21.-FICHA_VIVIENDAS_2025.pdf",
+    "nombre": "[2025] SUBVENCIONES PARA LA CONSTRUCCIÓN DE VIVIENDAS PROTEGIDAS DE PROMOCIÓN PRIVADA, DESTINADAS AL ARRENDAMIENTO",
+    "tematica": "Planificación",
+    "subtematica": "Vivienda",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240814_COHOUSING.pdf",
+    "nombre": "[2024] SUBVENCIONES DESTINADAS A LA IMPLANTACIÓN Y FOMENTO DE COHOUSING Y VIVIENDAS COLABORATIVAS EN CANARIAS",
+    "tematica": "Planificación",
+    "subtematica": "Vivienda",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "46.-FICHA_EDLP_ECONOMIA_AZUL.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES PARA LA APLICACIÓN DE LAS ESTRATEGIAS DE DESARROLLO LOCAL PARTICIPATIVO (EDLP), DESTINADAS A PERMITIR UNA ECONOMÍA AZUL SOSTENIBLE EN LAS ZONAS COSTERAS, INSULARES E INTERIORES, Y FOMENTAR EL DESARROLLO DE LAS COMUNIDADES PESQUERAS Y ACUÍCOLAS.",
+    "tematica": "Transición ecológica",
+    "subtematica": "Economía azul",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240827_RESERVA_BIOSFERA.pdf",
+    "nombre": "[2024] SUBVENCIONES A LAS ENTIDADES DE GESTIÓN DE LAS RESERVAS DE LA BIOSFERA DECLARADAS EN CANARIAS PARA EL EJERCICIO 2024",
+    "tematica": "Transición ecológica",
+    "subtematica": "Reserva de la biosfera",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2024-03-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "26.-FICHA_MOVES_III-modificada.pdf",
+    "nombre": "[2025] SUBVENCIONES DEL PROGRAMA DE INCENTIVOS LIGADOS A LA MOVILIDAD ELÉCTRICA (MOVES III) PARA EL AÑO 2025",
+    "tematica": "Transición ecológica",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "44.-FICHA_TRANSPORTE_INTERMODAL_CABILDOS.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES, EN RÉGIMEN DE CONCURRENCIA COMPETITIVA Y CON CARÁCTER PLURIANUAL, CON INICIO EN EL AÑO 2025, DESTINADAS A LA EJECUCIÓN, AMPLIACIÓN Y/O MEJORA DE INFRAESTRUCTURAS PARA PROMOVER EL TRANSPORTE INTERMODAL POR PARTE DE LOS CABILDOS INSULARES, CONTANDO CON FINANCIACIÓN DE LA UNIÓN EUROPEA EN EL MARCO DEL PROGRAMA FEDER APROBADO PARA CANARIAS EN EL PERIODO 2021-2027.",
+    "tematica": "Transición ecológica",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "39.-FICHA_PROY_MOVILIDAD_URBANA.pdf",
+    "nombre": "[2025] SUBVENCIONES PARA LA MOVILIDAD URBANA PARA EL EJERCICIO DE 2025, COFINANCIADAS EN EL ÁMBITO DEL PROGRAMA FEDER CANARIAS 2021-2027",
+    "tematica": "Transición ecológica",
+    "subtematica": "Movilidad",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "20.-FICHA_PARQUES_2025.pdf",
+    "nombre": "[2025] SUBVENCIONES EN LAS ÁREAS DE INFLUENCIA SOCIOECONÓMICA DE LOS PARQUES NACIONALES DE CANARIAS PARA EL EJERCICIO 2025",
+    "tematica": "Transición ecológica",
+    "subtematica": "Parques Nacionales",
+    "ambito": "Regionales",
+    "usuario_correo": "test@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
   }
 ]

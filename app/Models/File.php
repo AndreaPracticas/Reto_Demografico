@@ -9,12 +9,11 @@ class File extends Model
 {
     use HasFactory;
 
-    // No usamos timestamps automáticos porque la migración solo tiene created_at personalizado
     public $timestamps = false;
 
     protected $fillable = [
         'name',
-        'pdf_path',        // agregado
+        'pdf_path',
         'theme_id',
         'subtheme_id',
         'scope_id',

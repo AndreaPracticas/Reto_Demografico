@@ -7,38 +7,39 @@ use Illuminate\Http\Request;
 
 class DocumentController extends Controller
 {
-    public function filter(Request $request)
+    public function index(Request $request)
     {
-        $query = File::query();
+        $scope = $request->query('scope', ''); // 'regionales', 'nacionales', 'europeas'
+        $topic = $request->query('topic', '');       // Tema seleccionado
 
-        // SCOPE (ambito) – siempre primero
-        if ($request->filled('scope')) {
-            $query->whereHas('scope', fn ($q) =>
-                $q->where('name', $request->scope)
-            );
+        $topics = [
+            'Agenda 2030',
+            'Agua y Energía',
+            'Cultura',
+            'Economía y Empleo',
+            'Planificación',
+            'Recuperación',
+            'Transición ecológica'
+        ];
+
+        $query = File::query()->with(['theme', 'scopeRelation']);
+
+        // Filtrar por scope (ignora mayusculas/minúsculas)
+        if ($scope) {
+            $query->whereHas('scopeRelation', function ($q) use ($scope) {
+                $q->whereRaw('LOWER(name) LIKE ?', ['%' . strtolower($scope) . '%']);
+            });
         }
 
-        // TOPIC (tematica)
-        if ($request->filled('topic')) {
-            $query->whereHas('topic', fn ($q) =>
-                $q->where('name', $request->topic)
-            );
-        }
-
-        // SUBTOPIC (subtematica)
-        if ($request->filled('subtopic')) {
-            $query->whereHas('subtopic', fn ($q) =>
-                $q->where('name', $request->subtopic)
-            );
+        // Filtrar por topic (ignora mayusculas/minúsculas)
+        if ($topic) {
+            $query->whereHas('theme', function ($q) use ($topic) {
+                $q->whereRaw('LOWER(name) LIKE ?', ['%' . strtolower($topic) . '%']);
+            });
         }
 
         $documents = $query->get();
 
-        return view('partials.documents', [
-            'documents' => $documents,
-            'scope'     => $request->scope,
-            'topic'     => $request->topic,
-            'subtopic'  => $request->subtopic,
-        ]);
+        return view('ayudaSubvenciones', compact('scope', 'topic', 'topics', 'documents'));
     }
 }
