@@ -16,7 +16,7 @@
     "subtematica": "Energía",
     "ambito": "Europeas",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -26,7 +26,7 @@
     "subtematica": "Movilidad",
     "ambito": "Europeas",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -146,7 +146,7 @@
     "subtematica": "Digitalización",
     "ambito": "Nacionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -156,7 +156,7 @@
     "subtematica": "Digitalización",
     "ambito": "Nacionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -226,7 +226,7 @@
     "subtematica": "Energía",
     "ambito": "Nacionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -236,7 +236,7 @@
     "subtematica": "Energía",
     "ambito": "Nacionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -246,7 +246,7 @@
     "subtematica": "Energía",
     "ambito": "Nacionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -256,7 +256,7 @@
     "subtematica": "Energía",
     "ambito": "Nacionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -346,7 +346,7 @@
     "subtematica": "Innovación",
     "ambito": "Nacionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -402,11 +402,11 @@
   {
     "archivo_real": "58.-FICHA_SD_RETO-DEMOGRAFICO.pdf",
     "nombre": "Subvención directa en materia de Planificación Territorial y Reto Demográfico.",
-    "tematica": "Agenda 2030",
+    "tematica": "Reto demográfico",
     "subtematica": "Reto Demográfico",
     "ambito": "Regionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -576,7 +576,7 @@
     "subtematica": "Empleo",
     "ambito": "Regionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
@@ -586,7 +586,7 @@
     "subtematica": "Empleo",
     "ambito": "Regionales",
     "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
   {

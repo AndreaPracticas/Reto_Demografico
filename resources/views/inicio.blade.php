@@ -189,7 +189,7 @@
                 Estrategia
             </h1>
         </div>
-        <div class="">
+        <div>
             <!-- Que es reto demográfico? -->
             <div class="font-light text-[16px] pb-1">
                 <button 
@@ -386,7 +386,7 @@
                                 <x-orange-square-icon/>
                                 Participación de las agencias de empleo y desarrollo local
                             </button>
-                            <div class="internal-content max-h-0 overflow-hidden opacity-0 transition-all duration-400 ease-in-out px-2 mb-5">
+                            <div class="internal-content grid grid-rows-[0fr] transition-all duration-500 ease-in-out px-2 mb-5">
                                 <div class="overflow-hidden">
                                     <div class="pt-7 px-2">
                                         <x-download-link 
@@ -405,7 +405,7 @@
                                 <x-orange-square-icon/>
                                 La Conferencia de Presidentes y los grupos de trabajo
                             </button>
-                            <div class="internal-content max-h-0 overflow-hidden opacity-0 transition-all duration-400 ease-in-out px-2 mb-5">
+                            <div class="internal-content grid grid-rows-[0fr] transition-all duration-500 ease-in-out px-2 mb-5">
                                 <div class="overflow-hidden">
                                     <div class="pt-7 px-2 py-3">
                                         <x-download-link 
@@ -429,7 +429,7 @@
                                 <x-orange-square-icon/>
                                 Resultado de la consulta pública
                             </button>
-                            <div class="internal-content max-h-0 overflow-hidden opacity-0 transition-all duration-400 ease-in-out px-2 mb-5">
+                            <div class="internal-content grid grid-rows-[0fr] transition-all duration-500 ease-in-out px-2 mb-5">
                                 <div class="overflow-hidden">
                                     <div class="pt-7 px-2">
                                         <x-download-link 
@@ -448,7 +448,7 @@
                                 <x-orange-square-icon/>
                                 Constitución del grupo de trabajo de seguimiento
                             </button>
-                            <div class="internal-content max-h-0 overflow-hidden opacity-0 transition-all duration-400 ease-in-out px-2 mb-3">
+                            <div class="internal-content grid grid-rows-[0fr] transition-all duration-500 ease-in-out px-2 mb-5">
                                 <div class="overflow-hidden mx-10">
                                     <p class="pt-3">El Gobierno ha considerado oportuno convocar y constituir un grupo de trabajo de seguimiento
                                     con el objetivo de <b>abordar la respuesta y la toma en consideración</b> de las <a>aportaciones ciudadanas</a> 

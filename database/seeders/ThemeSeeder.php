@@ -17,6 +17,7 @@ class ThemeSeeder extends Seeder
             'Planificación',
             'Recuperación',
             'Transición ecológica',
+            'Reto demográfico',
         ];
 
         foreach ($themes as $index => $name) {

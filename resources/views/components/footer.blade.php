@@ -1,13 +1,13 @@
 <footer class="py-9 bg-[#2F2F2F] text-sm text-white">
-    <div class="container mx-auto flex justify-between items-start px-6">
+    <div class="container mx-auto flex justify-between items-start px-6 mb-20">
 
         <!-- COLUMNA IZQUIERDA -->
-        <div class="flex flex-col gap-y-4 max-w-md pt-10">
+        <div class="flex flex-col gap-y-4 max-w-md pt-10 ml-30">
 
             <img 
                 src="{{ asset('images/logos-footer/logos-web-congreso-2048x218.png') }}"
                 alt="Logo Gobierno de Canarias"
-                class="w-200 h-auto max-w-full object-contain pb-10"
+                class="w-300 h-auto max-w-full object-contain pb-10"
             >
 
             <div class="text-xs leading-relaxed text-left text-[14px]">
@@ -31,10 +31,10 @@
         </div>
 
         <!-- COLUMNA DERECHA -->
-        <div class="flex flex-col gap-y-4 max-w-md">
+        <div class="flex flex-col gap-y-6 max-w-md mr-30">
 
             <!-- Enlaces legales -->
-            <div class="flex items-center gap-x-2 text-xs md:text-sm mt-10">
+            <div class="flex items-center gap-x-2 text-xs pb-20 md:text-sm mt-10">
                 <a href="https://retodemograficogobcan.org/aviso-legal/" class="hover:underline">
                     Aviso Legal
                 </a>

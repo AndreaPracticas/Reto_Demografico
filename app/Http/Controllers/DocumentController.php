@@ -9,7 +9,7 @@ class DocumentController extends Controller
 {
     public function index(Request $request)
     {
-        $scope = $request->query('scope', ''); // 'regionales', 'nacionales', 'europeas'
+        $scope = $request->input('scope', ''); // 'regionales', 'nacionales', 'europeas'
         $topic = $request->query('topic', '');       // Tema seleccionado
 
         $topics = [

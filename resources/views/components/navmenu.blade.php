@@ -1,4 +1,4 @@
-<div id="navbar" class="absolute inset-x-0 top-25 z-50 bg-[#E9EAEA] transition-all duration-300">
+<div id="navbar" class="absolute inset-x-0 top-25 z-100 bg-[#E9EAEA] transition-all duration-300">
 
     <div class="max-w-7xl mx-auto px-4">
 
@@ -72,18 +72,19 @@
 
                         </button>
 
-                        <ul
-                            class="absolute top-full left-0 hidden group-hover:block bg-white shadow-lg rounded-md min-w-[220px] py-2 z-40">
-
-                            <li><a href="{{ route('ayudasysubvenciones', ['scope' => 'european']) }}" 
-                                    class="block px-4 py-2 hover:bg-gray-100">Europeas</a></li>
-                            <li><a href="{{ route('ayudasysubvenciones', ['scope' => 'regional']) }}"
-                                    class="block px-4 py-2 hover:bg-gray-100">Regionales</a></li>
-                            <li><a href="{{ route('ayudasysubvenciones', ['scope' => 'national']) }}"
-                                    class="block px-4 py-2 hover:bg-gray-100">Nacionales</a></li>
-
+                        <ul class="absolute top-full left-0 hidden group-hover:block bg-white shadow-lg rounded-md min-w-[220px] py-2 z-40">
+                            @foreach(['europeas','regionales','nacionales'] as $s)
+                            <li>
+                                <form action="{{ route('ayudasysubvenciones') }}" method="POST">
+                                    @csrf
+                                    <button type="submit" name="scope" value="{{ $s }}"
+                                        class="w-full text-left px-4 py-2 hover:bg-gray-100 capitalize">
+                                        {{ $s }}
+                                    </button>
+                                </form>
+                            </li>
+                            @endforeach
                         </ul>
-
                     </li>
 
                     <!-- ESTRATEGIA -->
@@ -115,13 +116,13 @@
                         <ul
                             class="absolute top-full left-0 hidden group-hover:block bg-white shadow-lg rounded-md min-w-[240px] py-2 z-40">
 
-                            <li><a href="{{ url('/actualidad#noticias') }}"
+                            <li><a href="{{ url('/actualidad') }}#noticias"
                                     class="block px-4 py-2 hover:bg-gray-100">Noticias</a></li>
-                            <li><a href="{{ url('/actualidad#experienciasrealizadas') }}"
+                            <li><a href="{{ url('/actualidad') }}#experiencias"
                                     class="block px-4 py-2 hover:bg-gray-100">Experiencias realizadas</a></li>
-                            <li><a href="{{ url('/actualidad#enlacesdeinteres') }}"
+                            <li><a href="{{ url('/actualidad') }}#enlaces"
                                     class="block px-4 py-2 hover:bg-gray-100">Enlaces de interés</a></li>
-                            <li><a href="{{ url('/actualidad#actividades') }}"
+                            <li><a href="{{ url('/actualidad') }}#actividades"
                                     class="block px-4 py-2 hover:bg-gray-100">Actividades</a></li>
 
                         </ul>
@@ -267,15 +268,9 @@
     if (window.scrollY > 10) {
         navbar.classList.remove('absolute', 'top-25')
         navbar.classList.add('fixed', 'top-0')
-
-        navbar.classList.remove('bg-black/5')
-        navbar.classList.add('bg-[#EEEEEE]')
     } else {
         navbar.classList.remove('fixed', 'top-0')
         navbar.classList.add('absolute', 'top-25')
-
-        navbar.classList.remove('bg-[#EEEEEE]')
-        navbar.classList.add('bg-black/5')
     }
     })
 </script>

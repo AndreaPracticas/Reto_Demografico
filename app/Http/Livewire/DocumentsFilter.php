@@ -9,6 +9,7 @@ class DocumentsFilter extends Component
 {
     public $scope = '';   // 'regionales', 'nacionales', 'europeas'
     public $topic = '';   // tema seleccionado
+    public $status = ''; // "abierto" o "cerrado"
 
     public $topics = [
         'Agenda 2030',
@@ -17,8 +18,10 @@ class DocumentsFilter extends Component
         'Economía y Empleo',
         'Planificación',
         'Recuperación',
-        'Transición ecológica'
+        'Transición ecológica',
+        'Reto demográfico',
     ];
+    protected $listeners = ['setScope'];
 
     public $documents;
 
@@ -31,13 +34,39 @@ class DocumentsFilter extends Component
     public function setTopic($topic)
     {
         $this->topic = $topic;
+
+        $openDocs = File::whereHas('scopeRelation', fn($q) =>
+            $q->whereRaw('LOWER(name) = ?', [strtolower($this->scope)])
+        )->whereHas('theme', fn($q) =>
+            $q->whereRaw('LOWER(name) = ?', [strtolower($topic)])
+        )->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->toDateString()])
+        ->exists();
+
+    $this->status = $openDocs ? 'open' : 'closed';
+
+        $this->loadDocuments();
+    }
+
+    public function setStatus($status)
+    {
+        $this->status = $status;
         $this->loadDocuments();
     }
 
     public function mount($scope = '', $topic = '')
     {
         $this->scope = $scope;
-        $this->topic = $topic;
+        $this->topic = $topic ?: $this->topics[0];
+
+        $openDocs = File::whereHas('scopeRelation', fn($q) =>
+            $q->whereRaw('LOWER(name) = ?', [strtolower($this->scope)])
+        )->whereHas('theme', fn($q) =>
+            $q->whereRaw('LOWER(name) = ?', [strtolower($this->topic ?: $this->topics[0])])
+        )->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->toDateString()])
+        ->exists();
+
+        $this->status = $openDocs ? 'open' : 'closed';
+
         $this->loadDocuments();
     }
 
@@ -74,6 +103,12 @@ class DocumentsFilter extends Component
             $query->whereHas('theme', fn($q) =>
                 $q->whereRaw('LOWER(name) = ?', [strtolower($this->topic)])
             );
+        }
+
+        if ($this->status === 'open') {
+            $query->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->toDateString()]);
+        } elseif ($this->status === 'closed') {
+            $query->whereRaw('? NOT BETWEEN reopening_date AND closing_date', [now()->toDateString()]);
         }
 
         $this->documents = $query->get();
