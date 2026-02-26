@@ -8,20 +8,26 @@ use Illuminate\Support\Facades\Hash;
 
 class UsersSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         DB::table('users')->insert([
             [
-                'name' => 'Test User',
-                'email' => 'test@user.com',
+                'name' => 'Admin User',
+                'email' => 'admin@user.com',
                 'password' => Hash::make('123456'),
-                'role' => 'admin',
+                'is_admin' => true,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Normal User',
+                'email' => 'user@user.com',
+                'password' => Hash::make('123456'),
+                'is_admin' => false,
                 'created_at' => now(),
                 'updated_at' => now(),
             ]
         ]);
     }
 }
+

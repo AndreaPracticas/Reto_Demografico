@@ -3,9 +3,9 @@
     "archivo_real": "59.-FICHA_CONV_HE_ZONAS-RURALES_2026.pdf",
     "nombre": "CONVOCATORIA «IMPULSAR LA COMPETITIVIDAD SOSTENIBLE EN LAS ZONAS RURALES MEDIANTE LA INNOVACIÓN» (HORIZON-CL6-2026-02-COMMUNITIES-01)",
     "tematica": "Agenda 2030",
-    "subtematica": "Desarrollo Rural",
+    "subtematica": "Desarrollo rural",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-12-31 23:59:59"
   },
@@ -15,9 +15,9 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2025-02-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
   },
   {
     "archivo_real": "22.-FICHA_PREMIOS_-CIUDAD_ACCESIBLE.pdf",
@@ -25,9 +25,9 @@
     "tematica": "Planificación",
     "subtematica": "Movilidad",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "fecha_cierre": "2026-02-24 23:59:59"
   },
   {
     "archivo_real": "3.-FICHA_LIFE_2025_Resumen-General.pdf",
@@ -35,9 +35,9 @@
     "tematica": "Transición ecológica",
     "subtematica": "Cambio climático",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2025-03-01 00:00:00",
-    "fecha_cierre": "2025-09-30 23:59:59"
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
     "archivo_real": "49.-FICHA_BLUEACTIONAA.pdf",
@@ -45,9 +45,9 @@
     "tematica": "Transición ecológica",
     "subtematica": "Economía azul",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2025-03-01 00:00:00",
-    "fecha_cierre": "2025-09-30 23:59:59"
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
   },
   {
     "archivo_real": "FICHA_240516_LIFE-SAP-ENV.pdf",
@@ -55,7 +55,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Biodiversidad",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -65,7 +65,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Cambio climático",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -75,7 +75,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Cambio climático",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -85,7 +85,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Cambio climático",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -95,7 +95,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Economía Circular",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -105,7 +105,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Entorno saludable",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -115,7 +115,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Entorno saludable",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -125,7 +125,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Entorno saludable",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -135,7 +135,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Entorno saludable",
     "ambito": "Europeas",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -145,7 +145,7 @@
     "tematica": "Agenda 2030",
     "subtematica": "Digitalización",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
@@ -155,7 +155,7 @@
     "tematica": "Agenda 2030",
     "subtematica": "Digitalización",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
@@ -165,7 +165,7 @@
     "tematica": "Agenda 2030",
     "subtematica": "Agenda 2030",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -175,7 +175,7 @@
     "tematica": "Agenda 2030",
     "subtematica": "Agenda 2030",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -185,7 +185,7 @@
     "tematica": "Agenda 2030",
     "subtematica": "Digitalización",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -195,7 +195,7 @@
     "tematica": "Agenda 2030",
     "subtematica": "Digitalización",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -205,17 +205,17 @@
     "tematica": "Agenda 2030",
     "subtematica": "Digitalización",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
   {
     "archivo_real": "FICHA_240703_RETO_DEMOGRAFICO.pdf",
     "nombre": "SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS PROMOVIDOS POR ENTIDADES LOCALES PARA LA FINANCIACIÓN DE PROYECTOS INNOVADORES PARA LA TRANSFORMACIÓN TERRITORIAL Y LA LUCHA CONTRA LA DESPOBLACIÓN",
-    "tematica": "Agenda 2030",
-    "subtematica": "Reto Demográfico",
+    "tematica": "Reto demográfico",
+    "subtematica": "Reto demográfico",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -225,7 +225,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
@@ -235,9 +235,9 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2025-02-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
   },
   {
     "archivo_real": "FICHA_PROG_REPOTENCIACION_CIRCULAR.pdf",
@@ -245,9 +245,9 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
-    "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2025-02-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
   },
   {
     "archivo_real": "55.-FICHA_PROG_RENORED.pdf",
@@ -255,7 +255,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
@@ -265,7 +265,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Agua",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -275,7 +275,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -285,7 +285,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -295,7 +295,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Economía",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -305,7 +305,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Economía",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -315,7 +315,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Empleo",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -325,7 +325,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Empleo",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -335,7 +335,7 @@
     "tematica": "Recuperación",
     "subtematica": "Recuperación",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -345,7 +345,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Innovación",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
@@ -355,7 +355,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Reto demográfico",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -365,7 +365,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Entorno urbano",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -375,7 +375,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Infraestructura verde",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -385,7 +385,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Entorno saludable",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -393,9 +393,9 @@
     "archivo_real": "2.-FICHA_-PROGRAMA-PLEAMAR_2025.pdf",
     "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES POR LA FUNDACIÓN BIODIVERSIDAD F.S.P. PARA EL FOMENTO DE LA ECONOMÍA AZUL Y EL IMPULSO DE LA SOSTENIBILIDAD PESQUERA Y ACUÍCOLA, EN EL MARCO DEL PROGRAMA PLEAMAR, COFINANCIADO POR EL FONDO EUROPEO MARÍTIMO, DE PESCA Y DE ACUICULTURA (FEMPA) EN 2025.",
     "tematica": "Transición ecológica",
-    "subtematica": "Biodiversidad - Economía azul",
+    "subtematica": "Biodiversidad-Economía azul",
     "ambito": "Nacionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -405,7 +405,7 @@
     "tematica": "Reto demográfico",
     "subtematica": "Reto Demográfico",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
@@ -415,7 +415,7 @@
     "tematica": "Agenda 2030",
     "subtematica": "Desarrollo rural",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -425,7 +425,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Agua",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -435,7 +435,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Agua",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -445,7 +445,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -455,7 +455,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -465,7 +465,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -475,7 +475,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -485,7 +485,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -495,7 +495,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -505,7 +505,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -515,7 +515,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -525,7 +525,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -535,7 +535,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -545,7 +545,7 @@
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -555,7 +555,7 @@
     "tematica": "Cultura",
     "subtematica": "Cultura",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -565,7 +565,7 @@
     "tematica": "Cultura",
     "subtematica": "Cultura",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -575,7 +575,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Empleo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
@@ -585,7 +585,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Empleo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2026-02-01 00:00:00",
     "fecha_cierre": "2026-09-30 23:59:59"
   },
@@ -595,7 +595,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Empleo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -605,7 +605,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Empleo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -615,7 +615,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Empleo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -625,7 +625,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Empleo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -635,7 +635,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Economía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -645,7 +645,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Economía",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -655,7 +655,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Comercio y turismo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -665,7 +665,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Comercio y turismo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -675,7 +675,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Comercio y turismo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -685,7 +685,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Comercio y turismo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -695,7 +695,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Comercio y turismo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -705,7 +705,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Comercio y turismo",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -715,7 +715,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Innovación",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -725,7 +725,7 @@
     "tematica": "Economía y Empleo",
     "subtematica": "Innovación",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -735,7 +735,7 @@
     "tematica": "Planificación",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -745,7 +745,7 @@
     "tematica": "Planificación",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -755,7 +755,7 @@
     "tematica": "Planificación",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -765,7 +765,7 @@
     "tematica": "Planificación",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -775,7 +775,7 @@
     "tematica": "Planificación",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -785,7 +785,7 @@
     "tematica": "Planificación",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -795,7 +795,7 @@
     "tematica": "Planificación",
     "subtematica": "Planeamiento",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -805,7 +805,7 @@
     "tematica": "Planificación",
     "subtematica": "Planeamiento",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -815,7 +815,7 @@
     "tematica": "Planificación",
     "subtematica": "Planeamiento",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -825,7 +825,7 @@
     "tematica": "Planificación",
     "subtematica": "Vivienda",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -835,7 +835,7 @@
     "tematica": "Planificación",
     "subtematica": "Vivienda",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -845,7 +845,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Economía azul",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -855,7 +855,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Reserva de la biosfera",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2024-03-01 00:00:00",
     "fecha_cierre": "2024-09-30 23:59:59"
   },
@@ -865,7 +865,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -875,7 +875,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -885,7 +885,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Movilidad",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   },
@@ -895,7 +895,7 @@
     "tematica": "Transición ecológica",
     "subtematica": "Parques Nacionales",
     "ambito": "Regionales",
-    "usuario_correo": "test@user.com",
+    "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
     "fecha_cierre": "2025-09-30 23:59:59"
   }

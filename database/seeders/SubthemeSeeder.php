@@ -20,7 +20,8 @@ class SubthemeSeeder extends Seeder
                 'Innovación','Reto demográfico','Entorno urbano','Infraestructura verde',
                 'Entorno saludable','Biodiversidad-Economía azul','Economía azul','Reserva de la biosfera',
                 'Movilidad','Parques Nacionales','Cambio climático','Biodiversidad','Economía Circular'
-            ]
+            ],
+            'Reto demográfico' => ['Reto demográfico']
         ];
 
         foreach ($mapping as $themeName => $subthemes) {
