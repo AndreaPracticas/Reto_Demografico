@@ -20,12 +20,14 @@
 
     </div>
 
-    <a 
-      href="{{ $link }}" 
-      class="block text-black font-bold text-right text-[15px] pt-2"
+    @if(!empty($link))
+      <a 
+        href="{{ $link }}" 
+        class="block text-black font-bold text-right text-[15px] pt-2"
       >
-      {{ $more }}
-    </a>
+        {{ $more }}
+      </a>
+    @endif
   </div>
 
 </div>

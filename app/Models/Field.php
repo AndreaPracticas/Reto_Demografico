@@ -9,7 +9,7 @@ class Field extends Model
 {
     use HasFactory;
 
-    public $timestamps = false;
+    // enable default timestamp columns (created_at, updated_at)
 
     protected $fillable = ['name'];
 

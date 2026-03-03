@@ -13,7 +13,9 @@ class ScopesSeeder extends Seeder
 
         foreach ($scopes as $index => $name) {
             DB::table('scopes')->insert([
-                'name' => $name
+                'name' => $name,
+                'created_at' => now(),
+                'updated_at' => now(),
             ]);
         }
     }

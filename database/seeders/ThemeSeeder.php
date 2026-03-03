@@ -22,7 +22,9 @@ class ThemeSeeder extends Seeder
 
         foreach ($themes as $index => $name) {
             DB::table('themes')->insert([
-                'name' => $name
+                'name' => $name,
+                'created_at' => now(),
+                'updated_at' => now(),
             ]);
         }
     }

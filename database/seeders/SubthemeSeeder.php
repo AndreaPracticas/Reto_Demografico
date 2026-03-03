@@ -30,7 +30,9 @@ class SubthemeSeeder extends Seeder
             foreach ($subthemes as $subthemeName) {
                 DB::table('subthemes')->insert([
                     'theme_id' => $theme->id,
-                    'name' => $subthemeName
+                    'name' => $subthemeName,
+                    'created_at' => now(),
+                    'updated_at' => now(),
                 ]);
             }
         }

@@ -23,7 +23,9 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->string('title');
             $table->text('description');
-            $table->timestamp('created_at')->useCurrent();
+            $table->string('link')->nullable(); 
+            $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -32,6 +34,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('news');
+        Schema::table('news', function (Blueprint $table) {
+                $table->dropSoftDeletes();
+            });
     }
 };

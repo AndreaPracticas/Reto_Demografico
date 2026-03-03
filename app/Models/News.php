@@ -4,12 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class News extends Model
 {
-    use HasFactory;
+    // enable default timestamp columns (created_at, updated_at)
 
-    public $timestamps = false;
+    use HasFactory, SoftDeletes;
 
     protected $fillable = [
         'field_id',
@@ -17,6 +18,7 @@ class News extends Model
         'image',
         'title',
         'description',
+        'link',
     ];
 
     // News belongs to a field

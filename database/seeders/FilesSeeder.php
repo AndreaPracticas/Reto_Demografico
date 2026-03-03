@@ -49,6 +49,7 @@ class FilesSeeder extends Seeder
                 'reopening_date' => Carbon::parse($file['fecha_reapertura']),
                 'closing_date' => Carbon::parse($file['fecha_cierre']),
                 'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
                 'user_id' => $user->id,
             ]);
         }

@@ -9,7 +9,7 @@ class Subtheme extends Model
 {
     use HasFactory;
 
-    public $timestamps = false;
+    // enable default created_at/updated_at timestamps
 
     protected $fillable = [
         'name',

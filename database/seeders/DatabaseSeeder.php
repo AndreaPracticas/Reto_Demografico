@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Database\Seeders\FieldSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -17,7 +18,9 @@ class DatabaseSeeder extends Seeder
             ThemeSeeder::class,
             SubthemeSeeder::class,
             ScopesSeeder::class,
+            FieldSeeder::class,
             FilesSeeder::class,
+            NewsSeeder::class,
         ]);
     }
 }

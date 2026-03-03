@@ -13,12 +13,18 @@ class FieldSeeder extends Seeder
     public function run(): void
     {
         $fields = [
-            ['name' => 'Noticia', 'created_at' => now(), 'updated_at' => now()],
-            ['name' => 'Experiencia', 'created_at' => now(), 'updated_at' => now()],
-            ['name' => 'Actividad', 'created_at' => now(), 'updated_at' => now()],
+            'Noticia',
+            'Experiencia',
+            'Actividad',
         ];
 
         // Inserta los campos en la tabla 'fields'
-        DB::table('fields')->insert($fields);
+        foreach ($fields as $index => $name) {
+            DB::table('fields')->insert([
+                'name' => $name,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ]);
+        }
     }
 }

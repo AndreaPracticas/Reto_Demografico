@@ -30,7 +30,7 @@ return new class extends Migration
 
             $table->date('reopening_date');
             $table->date('closing_date');
-            $table->timestamp('created_at')->useCurrent();
+            $table->timestamps();
         });
     }
 
