@@ -40,28 +40,50 @@ const slides = [
 let active = 0;
 const container = document.getElementById('slides-container');
 
-function renderSlides() {
+// Crear todos los slides una sola vez
+slides.forEach((slide, index) => {
+    const div = document.createElement('div');
+    div.className = `absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === 0 ? 'opacity-100 z-10' : 'opacity-0 z-0'}`;
+    
+    const img = document.createElement('img');
+    img.src = slide;
+    img.draggable = false;
+    img.className = 'w-full h-full object-cover select-none transition-transform duration-[7000ms] ease-linear scale-100';
+    
+    div.appendChild(img);
+    container.appendChild(div);
+});
 
-    container.innerHTML = slides.map((slide, index) => `
-        <div 
-            class="absolute inset-0 transition-opacity duration-700 ease-in-out
-            ${active === index ? 'opacity-100 z-10' : 'opacity-0 z-0'}"
-        >
-            <img 
-                src="${slide}" 
-                draggable="false"
-                class="w-full h-full object-cover select-none 
-                       transition-transform duration-[11000ms] ease-linear
-                       ${active === index ? 'scale-110' : 'scale-100'}"
-            >
-        </div>
-    `).join('');
+// Arrancar zoom de la primera imagen
+requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+        container.children[0].querySelector('img').classList.replace('scale-100', 'scale-110');
+    });
+});
+
+function goTo(next) {
+    const divs = container.children;
+    const imgs = Array.from(divs).map(d => d.querySelector('img'));
+
+    // Ocultar actual
+    divs[active].classList.replace('opacity-100', 'opacity-0');
+    divs[active].classList.replace('z-10', 'z-0');
+    imgs[active].classList.replace('scale-110', 'scale-100');
+
+    active = next;
+
+    // Mostrar siguiente
+    divs[active].classList.replace('opacity-0', 'opacity-100');
+    divs[active].classList.replace('z-0', 'z-10');
+
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+            imgs[active].classList.replace('scale-100', 'scale-110');
+        });
+    });
 }
 
-renderSlides();
-
 setInterval(() => {
-    active = (active + 1) % slides.length;
-    renderSlides();
+    goTo((active + 1) % slides.length);
 }, 7000);
 </script>

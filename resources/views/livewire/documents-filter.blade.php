@@ -46,16 +46,18 @@
         <div class="ml-10 flex-1 space-y-6">
             <!-- Filtro Abierto / Cerrado -->
             @php
+            $now = now()->format('Y-m-d H:i:s');
+
             $hasOpen = $this->status === 'open' ? $this->documents->isNotEmpty() : File::query()
                 ->whereHas('scopeRelation', fn($q) => $q->whereRaw('LOWER(name) = ?', [strtolower($scope)]))
                 ->whereHas('theme', fn($q) => $q->whereRaw('LOWER(name) = ?', [strtolower($topic)]))
-                ->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->toDateString()])
+                ->whereRaw('? BETWEEN reopening_date AND closing_date', [$now])
                 ->exists();
 
             $hasClosed = $this->status === 'closed' ? $this->documents->isNotEmpty() : File::query()
                 ->whereHas('scopeRelation', fn($q) => $q->whereRaw('LOWER(name) = ?', [strtolower($scope)]))
                 ->whereHas('theme', fn($q) => $q->whereRaw('LOWER(name) = ?', [strtolower($topic)]))
-                ->whereRaw('? NOT BETWEEN reopening_date AND closing_date', [now()->toDateString()])
+                ->whereRaw('? NOT BETWEEN reopening_date AND closing_date', [$now])
                 ->exists();
             @endphp
             <div class="flex justify-end gap-3 mb-4">

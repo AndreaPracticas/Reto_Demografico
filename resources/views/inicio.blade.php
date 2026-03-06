@@ -5,7 +5,7 @@
 @section('content')
     @include('partials.hero')
     <!-- Observatorio Reto Demográfico -->
-    <section class="container mx-auto pt-45 pb-30">
+    <section id="observatorio" class="container mx-auto pt-45 pb-30 fade-in-section">
         <div class="leading-tight text-left pl-15 ">
             <h1 class="text-black font-bold uppercase text-4xl sm:text-4xl md:text-4xl lg:text-4xl">
                 OBSERVATORIO
@@ -43,9 +43,9 @@
     <img
             src="{{ asset('images/Visor_3-2048x1008.png') }}" 
             alt="Logos Reto Demográfico" 
-            class="w-full h-auto mt-30"
+            class="w-full h-auto mt-30 img-seccion"
         >
-    <section id="analisis" class="py-23 px-45 pb-20">
+    <section id="analisis" class="py-23 px-45 pb-20 fade-in-section">
         <div class="leading-tight text-left pb-15 pt-20 ">
             <h1 class="text-black font-bold text-4xl sm:text-4xl md:text-4xl lg:text-4xl">
                 Herramientas de 
@@ -125,9 +125,9 @@
     <img
         src="{{ asset('images/Ayudas@300x-2048x1005.png') }}" 
         alt="Ayudas" 
-        class="w-full h-auto mt-30"
+        class="w-full h-auto mt-30 img-seccion"
     >
-    <section class="px-45 pb-15 pt-17">
+    <section id="ayudas" class="px-45 pb-15 pt-17 fade-in-section">
         <div class="leading-tight text-left pb-19 pt-20 ">
             <h1 class="text-black font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl">
                 Ayudas
@@ -181,9 +181,9 @@
     <img
         src="{{ asset('images/Estrategia-2048x1009.png') }}" 
         alt="Ayudas" 
-        class="w-full h-auto mt-30"
+        class="w-full h-auto mt-30 img-seccion"
     >
-    <section id="estrategia" class="px-45 pb-30 pt-17">
+    <section id="estrategia" class="px-45 pb-30 pt-17 fade-in-section">
         <div class="leading-tight text-left pb-19 pt-20 ">
             <h1 class="text-black font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl">
                 Estrategia
@@ -1024,6 +1024,45 @@
         });
     });
 
+    // ANIMACIÓN IMÁGENES DE SECCIÓN
+    document.querySelectorAll('.img-seccion').forEach(img => {
+        img.style.opacity = '0';
+        img.style.transform = 'translateY(40px)';
+        img.style.transition = 'opacity 0.9s ease, transform 0.9s ease';
+
+        const imgObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    imgObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.15
+        });
+
+        imgObserver.observe(img);
+    });
+
+   // ANIMACIÓN OPACIDAD — aplica a todos los elementos con clase .fade-in-section
+    document.querySelectorAll('.fade-in-section').forEach(el => {
+        el.style.opacity = '0';
+        el.style.transition = 'opacity 1.2s ease';
+
+        const fadeObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    fadeObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.15
+        });
+
+        fadeObserver.observe(el);
+    });
 </script>
 
 @endsection

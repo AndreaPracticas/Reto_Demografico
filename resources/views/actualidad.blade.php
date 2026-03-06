@@ -8,7 +8,7 @@
     <!-- Imagen -->
     <div class="bg-white items-center justify-center h-110 ">
         <img 
-            src="/images/ac/Actualidad.png" 
+            src="/storage/news/Actualidad.png" 
             alt="Actualidad"
             class="w-full h-full object-cover">
     </div>

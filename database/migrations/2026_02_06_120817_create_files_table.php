@@ -28,9 +28,10 @@ return new class extends Migration
             $table->foreignId('user_id')
                 ->constrained('users');
 
-            $table->date('reopening_date');
-            $table->date('closing_date');
+            $table->dateTime('reopening_date');
+            $table->dateTime('closing_date');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -39,6 +40,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('files');
+        Schema::table('files', function (Blueprint $table) {
+            $table->dropSoftDeletes();
+        });
     }
 };

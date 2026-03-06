@@ -19,7 +19,7 @@
         <nav class="flex-1 px-4 py-6 space-y-2">
             <a href="{{ route('admin.inicio') }}" class="block px-4 py-2 rounded hover:bg-gray-700">Inicio</a>
             <a href="{{ route('admin.noticias') }}" class="block px-4 py-2 rounded hover:bg-gray-700">Noticias</a>
-            <a href="#" class="block px-4 py-2 rounded hover:bg-gray-700">Ayudas y Subvenciones</a>
+            <a href="{{ route('admin.ayudas') }}" class="block px-4 py-2 rounded hover:bg-gray-700">Ayudas y Subvenciones</a>
             <a href="#" class="block px-4 py-2 rounded hover:bg-gray-700">Usuarios</a>
         </nav>
 

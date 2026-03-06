@@ -9,52 +9,55 @@ use App\Models\News;
 
 class Inicio extends Component
 {
-
-    // Variables públicas que la vista mostrará
-    public $resumen = [];
-    public $ultimasAcciones = [];
-
-    public function mount()
+    public function render()
     {
-        // Cargar conteos reales
-        $this->resumen = [
+        $resumen = [
             'usuarios' => User::count(),
             'noticias' => News::count(),
             'archivos' => File::count(),
         ];
 
-        // Cargar últimas acciones (ejemplo: últimos 5 registros)
-        $ultimosUsuarios = User::latest()->take(5)->get();
-        $ultimasNoticias = News::latest()->take(5)->get();
-        $ultimosArchivos = File::latest()->take(5)->get();
+        // Recogemos los últimos registros con fecha real
+        $acciones = collect();
 
-        // Combinar en un array para la vista
-        $acciones = [];
-
-        foreach ($ultimosUsuarios as $u) {
-            $acciones[] = "Usuario {$u->name} registrado";
-        }
-
-        foreach ($ultimasNoticias as $n) {
-            $acciones[] = "Noticia \"{$n->title}\" publicada";
-        }
-
-        foreach ($ultimosArchivos as $a) {
-            $acciones[] = "Archivo \"{$a->name}\" subido";
-        }
-
-        // Ordenar por fecha de creación descendente (más reciente primero)
-        usort($acciones, function($a, $b) {
-            return 0; // Simple placeholder, puedes usar created_at si quieres exacto
+        User::latest()->take(5)->get()->each(function ($u) use (&$acciones) {
+            $acciones->push([
+                'texto' => "Usuario \"{$u->name}\" registrado",
+                'fecha' => $u->created_at,
+            ]);
         });
 
-        $this->ultimasAcciones = array_slice($acciones, 0, 5);
-    }
+        News::withTrashed()->latest()->take(5)->get()->each(function ($n) use (&$acciones) {
+            if ($n->trashed()) {
+                $acciones->push([
+                    'texto' => "Noticia \"{$n->title}\" eliminada",
+                    'fecha' => $n->deleted_at,
+                ]);
+            } else {
+                $acciones->push([
+                    'texto' => "Noticia \"{$n->title}\" publicada",
+                    'fecha' => $n->created_at,
+                ]);
+            }
+        });
 
-    public function render()
-    {
+        File::latest()->take(5)->get()->each(function ($a) use (&$acciones) {
+            $acciones->push([
+                'texto' => "Archivo \"{$a->name}\" subido",
+                'fecha' => $a->created_at,
+            ]);
+        });
+
+        $ultimasAcciones = $acciones
+            ->sortByDesc('fecha')
+            ->take(5)
+            ->pluck('texto');
+
          /** @var \Livewire\Features\SupportPageComponents\View $view */
-        $view = view('livewire.admin.inicio');
+        $view = view('livewire.admin.inicio', [
+            'resumen' => $resumen,
+            'ultimasAcciones' => $ultimasAcciones,
+        ]);
 
         return $view->layout('layouts.admin');
     }

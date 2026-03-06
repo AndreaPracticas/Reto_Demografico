@@ -39,7 +39,7 @@ class DocumentsFilter extends Component
             $q->whereRaw('LOWER(name) = ?', [strtolower($this->scope)])
         )->whereHas('theme', fn($q) =>
             $q->whereRaw('LOWER(name) = ?', [strtolower($topic)])
-        )->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->toDateString()])
+        )->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->format('Y-m-d H:i:s')])
         ->exists();
 
     $this->status = $openDocs ? 'open' : 'closed';
@@ -62,7 +62,7 @@ class DocumentsFilter extends Component
             $q->whereRaw('LOWER(name) = ?', [strtolower($this->scope)])
         )->whereHas('theme', fn($q) =>
             $q->whereRaw('LOWER(name) = ?', [strtolower($this->topic ?: $this->topics[0])])
-        )->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->toDateString()])
+        )->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->format('Y-m-d H:i:s')])
         ->exists();
 
         $this->status = $openDocs ? 'open' : 'closed';
@@ -91,7 +91,7 @@ class DocumentsFilter extends Component
             return;
         }
 
-        $query = File::query()->with(['theme', 'subtheme', 'scopeRelation']); // evita N+1
+        $query = File::query()->with(['theme', 'subtheme', 'scopeRelation']);
 
        if ($this->scope) {
             $query->whereHas('scopeRelation', fn($q) =>
@@ -106,9 +106,9 @@ class DocumentsFilter extends Component
         }
 
         if ($this->status === 'open') {
-            $query->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->toDateString()]);
+            $query->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->format('Y-m-d H:i:s')]);
         } elseif ($this->status === 'closed') {
-            $query->whereRaw('? NOT BETWEEN reopening_date AND closing_date', [now()->toDateString()]);
+            $query->whereRaw('? NOT BETWEEN reopening_date AND closing_date', [now()->format('Y-m-d H:i:s')]);
         }
 
         $this->documents = $query->get();

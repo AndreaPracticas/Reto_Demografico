@@ -17,7 +17,7 @@ class AdminMiddleware
     public function handle($request, Closure $next)
     {
         if (!Auth::check()) {
-            return redirect('/login');
+            return redirect()->route('login', ['expired' => 1]);
         }
 
         if (!Auth::user()->is_admin) {

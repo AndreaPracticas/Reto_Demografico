@@ -30,4 +30,7 @@ Route::prefix('admin')->middleware([AdminMiddleware::class])->group(function () 
 
     Route::get('/noticias', \App\Livewire\Admin\Noticias::class)
          ->name('admin.noticias');
+
+    Route::get('/ayudasysubvenciones', \App\Livewire\Admin\Ayudas::class)
+         ->name('admin.ayudas');
 });

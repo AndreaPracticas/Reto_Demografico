@@ -131,7 +131,7 @@ class Noticias extends Component
         $query = News::withTrashed()->latest();
 
         if ($this->searchTitle) {
-            $query->where('description', 'like', '%' . $this->searchTitle . '%');
+            $query->where('title', 'like', '%' . $this->searchTitle . '%');
         }
 
         if ($this->searchDescription) {
