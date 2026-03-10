@@ -41,7 +41,7 @@
                 </td>
                 <td class="p-3">{{ $theme->name }}</td>
                 <td class="p-3">{{ $theme->created_at->format('d/m/Y') }}</td>
-                <td class="p-3 space-x-2">
+                <td wire:key="actions-theme-{{ $theme->id }}-{{ in_array($theme->id, $trashedIds) ? 'trashed' : 'active' }}" class="p-3 space-x-2">
                     <button wire:click="edit({{ $theme->id }})"
                             class="text-blue-600 hover:underline">Editar</button>
                     @if(in_array($theme->id, $trashedIds))

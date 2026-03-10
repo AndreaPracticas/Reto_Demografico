@@ -1,8 +1,10 @@
+@props(['title', 'description', 'image' => null, 'more' => 'Ir—', 'link' => null])
+
 <div class="bg-transparent mb-3 shadow-[0_2px_12px_rgba(0,0,0,0.4)] overflow-hidden w-full max-w-[320px] sm:max-w-[360px] lg:max-w-[380px]">
 
   {{-- Imagen --}}
   <div class="overflow-hidden w-105 h-50">
-  @if(isset($image))
+  @if($image)
     <img src="{{ $image }}" class="w-full h-full object-cover transition-transform duration-[1800ms] ease-in-out hover:scale-120">
   @endif
   </div>
@@ -20,7 +22,7 @@
 
     </div>
 
-    @if(!empty($link))
+    @if($link)
       <a 
         href="{{ $link }}" target="_blank"
         class="block text-black font-bold text-right text-[15px] pt-2"

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Dashboard')</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>@yield('title', 'AdminDashboard')</title>
     @vite('resources/css/app.css') <!-- TailwindCSS -->
     @livewireStyles
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -21,8 +22,12 @@
             <a href="{{ route('admin.noticias') }}" class="block px-4 py-2 rounded hover:bg-gray-700">Noticias</a>
             <div x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false" class="relative">
                 <a href="{{ route('admin.ayudas') }}"
-                class="block px-4 py-2 rounded hover:bg-gray-700">
-                    Ayudas y Subvenciones
+                    class="flex items-center justify-between px-4 py-2 rounded hover:bg-gray-700">
+                    <span>Ayudas y Subvenciones</span>
+                    <svg class="w-3 h-3 transition-transform" :class="open ? 'rotate-180' : ''" 
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
                 </a>
                 <div x-show="open" x-transition class="ml-4 space-y-1">
                     <a href="{{ route('admin.ayudas.tematicas') }}"
@@ -31,7 +36,7 @@
                     class="block px-4 py-2 rounded hover:bg-gray-600 text-sm text-gray-300">Subtemáticas</a>
                 </div>
             </div>
-            <a href="#" class="block px-4 py-2 rounded hover:bg-gray-700">Usuarios</a>
+            <a href="{{ route('admin.usuarios') }}" class="block px-4 py-2 rounded hover:bg-gray-700">Usuarios</a>
         </nav>
 
         <div class="px-6 py-4 border-t border-gray-700">

@@ -99,15 +99,22 @@
                 No hay enlaces disponibles.
             </p>
         @endforelse
-        <div class="w-full aspect-video">
-            <iframe
-                class="w-full h-full"
-                src="https://www.youtube.com/embed/mnZssfImspE"
-                title="Video de YouTube"
-                allowfullscreen>
-            </iframe>
+    </div>
+
+    <!-- Video -->
+    <div class="ml-40 mr-40 mt-5">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div class="relative aspect-video">
+                <iframe
+                    class="absolute inset-0 w-full h-full"
+                    src="https://www.youtube.com/embed/mnZssfImspE"
+                    title="Video de YouTube"
+                    allowfullscreen>
+                </iframe>
+            </div>
         </div>
     </div>
+    
     <!-- Mujeres rurales frente a la inteligencia artificial generativa -->
     <div class="w-[1281px] mx-auto mt-25">
         <div class="flex flex-col md:flex-row w-full p-10 gap-3">

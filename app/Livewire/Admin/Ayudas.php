@@ -32,6 +32,7 @@ class Ayudas extends Component
     public $reopening_time;
     public $closing_time;
     public $searchStatus = '';
+    public $status_mode = 'abierto';
 
     // Opciones selectores
     // public $themes;
@@ -61,6 +62,7 @@ class Ayudas extends Component
         $this->closing_date   = '';
         $this->closing_time   = '23:59';
         $this->showModal      = true;
+        $this->status_mode = 'abierto';
     }
 
     public function closeModal()
@@ -68,6 +70,7 @@ class Ayudas extends Component
         $this->showModal = false;
         $this->subthemes = [];
         $this->reset(['file_id','name','pdf','theme_id','subtheme_id','scope_id','reopening_date','closing_date']);
+        $this->status_mode = 'abierto';
     }
 
     public function edit($id)
@@ -78,6 +81,11 @@ class Ayudas extends Component
         $this->theme_id       = $file->theme_id;
         $this->subtheme_id    = $file->subtheme_id;
         $this->scope_id       = $file->scope_id;
+        $ahora = now();
+        $this->status_mode = $ahora->between(
+            \Carbon\Carbon::parse($file->reopening_date),
+            \Carbon\Carbon::parse($file->closing_date)
+        ) ? 'abierto' : 'cerrado';
         $this->reopening_date = \Carbon\Carbon::parse($file->reopening_date)->format('Y-m-d');
         $this->reopening_time = \Carbon\Carbon::parse($file->reopening_date)->format('H:i');
         $this->closing_date   = \Carbon\Carbon::parse($file->closing_date)->format('Y-m-d');
@@ -98,7 +106,9 @@ class Ayudas extends Component
             'subtheme_id'    => 'required|exists:subthemes,id',
             'scope_id'       => 'required|exists:scopes,id',
             'reopening_date' => 'required|date',
-            'closing_date'   => 'required|date|after_or_equal:reopening_date',
+            'closing_date'   => $this->status_mode === 'abierto' 
+                ? 'required|date|after_or_equal:today' 
+                : 'required|date',
             'reopening_time' => 'required',
             'closing_time'   => 'required',
             'pdf'            => $this->file_id ? 'nullable|file|mimes:pdf|max:10240' : 'required|file|mimes:pdf|max:10240',

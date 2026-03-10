@@ -52,7 +52,7 @@
                     {{ $subtheme->theme->name ?? 'N/A' }}
                 </td>
                 <td class="p-3">{{ $subtheme->created_at->format('d/m/Y') }}</td>
-                <td class="p-3 space-x-2">
+                <td wire:key="actions-subtheme-{{ $subtheme->id }}-{{ in_array($subtheme->id, $trashedIds) ? 'trashed' : 'active' }}" class="p-3 space-x-2">
                     <button wire:click="edit({{ $subtheme->id }})"
                             class="text-blue-600 hover:underline">Editar</button>
                     @if(in_array($subtheme->id, $trashedIds))

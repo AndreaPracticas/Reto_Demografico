@@ -105,7 +105,7 @@
                         </span>
                     @endif
                 </td>
-                <td class="p-3 space-x-2">
+                <td wire:key="actions-file-{{ $file->id }}-{{ in_array($file->id, $trashedIds) ? 'trashed' : 'active' }}" class="p-3 space-x-2">
                     <button wire:click="edit({{ $file->id }})"
                             class="text-blue-600 hover:underline">Editar</button>
 
@@ -164,6 +164,19 @@
                 @endforeach
             </select>
             @error('scope_id') <p class="text-red-500 text-sm mb-2">{{ $message }}</p> @enderror
+
+            {{-- Estado --}}
+            <div class="flex items-center justify-between mb-3">
+                <span class="text-sm text-gray-700">Estado: <span class="{{ $status_mode === 'abierto' ? 'text-green-700 font-semibold' : 'text-red-700 font-semibold' }}">{{ ucfirst($status_mode) }}</span></span>
+                <div x-data="{ on: @entangle('status_mode').live }"
+                    @click="on = (on === 'abierto') ? 'cerrado' : 'abierto'"
+                    :class="on === 'abierto' ? 'bg-green-500' : 'bg-red-400'"
+                    class="relative w-11 h-6 rounded-full transition-colors duration-200 cursor-pointer">
+                    <div :class="on === 'abierto' ? 'translate-x-5' : 'translate-x-1'"
+                        class="absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform duration-200">
+                    </div>
+                </div>
+            </div>
 
             {{-- Fechas y horas --}}
             <div class="grid grid-cols-2 gap-3 mb-3">

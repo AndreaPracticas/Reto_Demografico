@@ -15,7 +15,7 @@ class FieldSeeder extends Seeder
         $fields = [
             'Noticia',
             'Experiencia',
-            'Actividad',
+            'Enlaces de Interés',
         ];
 
         // Inserta los campos en la tabla 'fields'

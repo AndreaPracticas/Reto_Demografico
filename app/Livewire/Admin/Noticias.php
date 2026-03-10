@@ -87,7 +87,7 @@ class Noticias extends Component
                 'title'       => $this->title,
                 'description' => $this->description,
                 'image'       => $filename ?? $currentImage,
-                'link'        => $this->link ?? $currentLink,
+                'link'        => $this->link ?? null,
             ]
         );
 

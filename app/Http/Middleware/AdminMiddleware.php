@@ -16,12 +16,24 @@ class AdminMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if (!Auth::check()) {
+            if (!Auth::check()) {
             return redirect()->route('login', ['expired' => 1]);
         }
 
-        if (!Auth::user()->is_admin) {
+        $user = \App\Models\User::withTrashed()->find(Auth::id());
+
+        if (!$user || $user->deleted_at) {
+            Auth::logout();
+            return redirect()->route('login');
+        }
+
+        if (!$user->is_admin) {
             abort(403, 'Acceso denegado');
+        }
+
+        if ($user->is_suspended) {
+            Auth::logout();
+            return redirect()->route('login')->with('status', 'suspended');
         }
 
         return $next($request);

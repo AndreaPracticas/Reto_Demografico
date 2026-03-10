@@ -13,10 +13,12 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withSchedule(function (Schedule $schedule): void {
-        $schedule->command('news:purge')->monthly();
+        $schedule->command('app:purge-deleted')->monthly();
     })
     ->withMiddleware(function (Middleware $middleware): void {
-        // Aquí puedes registrar middleware globales
+        $middleware->alias([
+            'suspended' => \App\Http\Middleware\CheckSuspended::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         $exceptions->renderable(function (TokenMismatchException $e, $request) {
