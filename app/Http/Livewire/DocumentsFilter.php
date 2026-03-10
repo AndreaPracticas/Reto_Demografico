@@ -4,23 +4,14 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\File;
+use App\Models\Theme;
 
 class DocumentsFilter extends Component
 {
-    public $scope = '';   // 'regionales', 'nacionales', 'europeas'
-    public $topic = '';   // tema seleccionado
-    public $status = ''; // "abierto" o "cerrado"
+    public $scope = '';
+    public $topic = '';
+    public $status = '';
 
-    public $topics = [
-        'Agenda 2030',
-        'Agua y Energía',
-        'Cultura',
-        'Economía y Empleo',
-        'Planificación',
-        'Recuperación',
-        'Transición ecológica',
-        'Reto demográfico',
-    ];
     protected $listeners = ['setScope'];
 
     public $documents;
@@ -42,8 +33,7 @@ class DocumentsFilter extends Component
         )->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->format('Y-m-d H:i:s')])
         ->exists();
 
-    $this->status = $openDocs ? 'open' : 'closed';
-
+        $this->status = $openDocs ? 'open' : 'closed';
         $this->loadDocuments();
     }
 
@@ -55,45 +45,32 @@ class DocumentsFilter extends Component
 
     public function mount($scope = '', $topic = '')
     {
+        $firstTopic = Theme::orderBy('name')->first();
+
         $this->scope = $scope;
-        $this->topic = $topic ?: $this->topics[0];
+        $this->topic = $topic ?: ($firstTopic->name ?? '');
 
         $openDocs = File::whereHas('scopeRelation', fn($q) =>
             $q->whereRaw('LOWER(name) = ?', [strtolower($this->scope)])
         )->whereHas('theme', fn($q) =>
-            $q->whereRaw('LOWER(name) = ?', [strtolower($this->topic ?: $this->topics[0])])
+            $q->whereRaw('LOWER(name) = ?', [strtolower($this->topic)])
         )->whereRaw('? BETWEEN reopening_date AND closing_date', [now()->format('Y-m-d H:i:s')])
         ->exists();
 
         $this->status = $openDocs ? 'open' : 'closed';
-
-        $this->loadDocuments();
-    }
-
-    public function updatedScope($value)
-    {
-        $this->scope = $value;
-        $this->topic = ''; // Reiniciar el topic al cambiar el scope
-        $this->loadDocuments();
-    }
-
-    public function updatedTopic($value)
-    {
-        $this->topic = $value;
         $this->loadDocuments();
     }
 
     public function loadDocuments()
     {
-        // Si no hay scope ni topic, no traemos ningún documento
         if (!$this->scope && !$this->topic) {
-            $this->documents = collect(); // colección vacía
+            $this->documents = collect();
             return;
         }
 
         $query = File::query()->with(['theme', 'subtheme', 'scopeRelation']);
 
-       if ($this->scope) {
+        if ($this->scope) {
             $query->whereHas('scopeRelation', fn($q) =>
                 $q->whereRaw('LOWER(name) = ?', [strtolower($this->scope)])
             );
@@ -116,6 +93,8 @@ class DocumentsFilter extends Component
 
     public function render()
     {
-        return view('livewire.documents-filter');
+        return view('livewire.documents-filter', [
+            'topics' => Theme::orderBy('name')->get(['name', 'icon']), // solo en render, nunca como propiedad
+        ]);
     }
 }

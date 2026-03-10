@@ -32,11 +32,11 @@
         <div class='w-60 flex-shrink-0'>
             <div class="grid grid-cols-1 gap-2">
                 @foreach($topics as $t)
-                    <button wire:click="setTopic('{{ $t }}')"
+                    <button wire:click="setTopic('{{ $t->name }}')"
                         class="p-4 px-7 flex items-center gap-2 p-4
-                        {{ $topic === $t ? 'bg-[#6D9696] font-thin text-white' : 'bg-[#F1F2F3] font-thin text-[#54595F] hover:bg-[#6D9696] transition-colors duration-500 ease-out hover:text-white' }}">
-                            <x-selectable-icons name="{{ normalizeTopic($t) }}" class="w-full h-full fill-current"/>
-                            <h3 class="font-normal">{{ $t }}</h3>
+                        {{ $topic === $t->name ? 'bg-[#6D9696] font-thin text-white' : 'bg-[#F1F2F3] font-thin text-[#54595F] hover:bg-[#6D9696] transition-colors duration-500 ease-out hover:text-white' }}">
+                            <x-selectable-icons name="{{ $t->icon ?? normalizeTopic($t->name) }}" class="w-full h-full fill-current"/>
+                            <h3 class="font-normal">{{ $t->name }}</h3>
                     </button>
                 @endforeach
             </div>

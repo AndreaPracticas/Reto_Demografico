@@ -34,9 +34,9 @@ class Ayudas extends Component
     public $searchStatus = '';
 
     // Opciones selectores
-    public $themes;
+    // public $themes;
     public $subthemes;
-    public $scopes;
+    // public $scopes;
 
     // Buscadores
     public $searchName = '';
@@ -48,14 +48,14 @@ class Ayudas extends Component
 
     public function mount()
     {
-        $this->themes    = Theme::all();
-        $this->subthemes = Subtheme::all();
-        $this->scopes    = Scope::all();
+        $this->subthemes = [];
+        // $this->scopes    = Scope::all();
     }
 
     public function create()
     {
         $this->reset(['file_id','name','pdf','theme_id','subtheme_id','scope_id']);
+        $this->subthemes = [];
         $this->reopening_date = now()->format('Y-m-d');
         $this->reopening_time = '00:00';
         $this->closing_date   = '';
@@ -66,6 +66,7 @@ class Ayudas extends Component
     public function closeModal()
     {
         $this->showModal = false;
+        $this->subthemes = [];
         $this->reset(['file_id','name','pdf','theme_id','subtheme_id','scope_id','reopening_date','closing_date']);
     }
 
@@ -82,6 +83,10 @@ class Ayudas extends Component
         $this->closing_date   = \Carbon\Carbon::parse($file->closing_date)->format('Y-m-d');
         $this->closing_time   = \Carbon\Carbon::parse($file->closing_date)->format('H:i');
         $this->pdf            = null;
+        $this->subthemes = \App\Models\Subtheme::where('theme_id', $file->theme_id)
+            ->get()
+            ->map(fn($s) => ['id' => $s->id, 'name' => $s->name])
+            ->toArray();
         $this->showModal      = true;
     }
 
@@ -126,6 +131,15 @@ class Ayudas extends Component
         $this->reset(['file_id','name','pdf','theme_id','subtheme_id','scope_id','reopening_date','closing_date','reopening_time','closing_time']);
         $this->showModal = false;
         $this->refreshKey++;
+    }
+
+    public function updatedThemeId($value)
+    {
+        $this->subtheme_id = null;
+        $this->subthemes = \App\Models\Subtheme::where('theme_id', $value)
+            ->get()
+            ->map(fn($s) => ['id' => $s->id, 'name' => $s->name])
+            ->toArray();
     }
 
     public function confirmDelete($id)
@@ -199,6 +213,10 @@ class Ayudas extends Component
         $view = view('livewire.admin.ayudas', [
             'files'      => $files,
             'trashedIds' => File::onlyTrashed()->pluck('id')->toArray(),
+            'themes'     => Theme::all(),
+            'scopes'     => Scope::all(),
+            'allSubthemes'    => Subtheme::all(), 
+            'subthemes'  => $this->subthemes,
         ]);
 
         return $view->layout('layouts.admin');

@@ -27,6 +27,7 @@
     <table class="w-full border border-gray-200 rounded-lg overflow-hidden mb-6">
         <thead class="bg-gray-100">
             <tr>
+                <th class="text-left p-3">Icono</th>
                 <th class="text-left p-3">Nombre</th>
                 <th class="text-left p-3">Creada</th>
                 <th class="text-left p-3">Acciones</th>
@@ -35,6 +36,9 @@
         <tbody>
             @foreach($themes as $theme)
             <tr class="border-t {{ in_array($theme->id, $trashedIds) ? 'bg-red-50' : '' }}">
+                <td class="p-3">
+                    <x-selectable-icons name="{{ $theme->icon }}" class="w-6 h-6 fill-current text-gray-600"/>
+                </td>
                 <td class="p-3">{{ $theme->name }}</td>
                 <td class="p-3">{{ $theme->created_at->format('d/m/Y') }}</td>
                 <td class="p-3 space-x-2">
@@ -60,6 +64,26 @@
             <h3 class="text-lg font-semibold mb-4">
                 {{ $theme_id ? 'Editar Temática' : 'Nueva Temática' }}
             </h3>
+
+            {{-- Selector de icono --}}
+            <p class="text-sm text-gray-600 mb-2">Icono</p>
+            <div class="grid grid-cols-5 gap-2 mb-3 max-h-40 overflow-y-auto p-2">
+                @foreach([
+                    'agenda2030', 'aguayenergia', 'cultura', 'economiayempleo',
+                    'planificacion', 'recuperacion', 'transicionecologica', 'retodemografico',
+                    'bell', 'inbox', 'globe', 'paperclip', 'car', 'pen', 'folder',
+                    'hashtag', 'briefcase', 'flask', 'layer-group', 'users', 'handshake',
+                    'envelope', 'folder-open', 'map', 'microphone', 'newspaper',
+                    'paper-plane', 'shield', 'venus-mars'
+                ] as $iconKey)
+                    <button type="button" wire:click="$set('icon', '{{ $iconKey }}')"
+                            class="flex flex-col items-center p-2 rounded border-2 transition
+                                {{ $icon === $iconKey ? 'border-indigo-500 bg-indigo-50' : 'border-transparent hover:border-gray-300' }}">
+                        <x-selectable-icons name="{{ $iconKey }}" class="w-6 h-6"/>
+                    </button>
+                @endforeach
+            </div>
+            @error('icon') <p class="text-red-500 text-sm mb-2">{{ $message }}</p> @enderror
 
             <input type="text" wire:model="name" placeholder="Nombre de la temática"
                    class="w-full border rounded px-3 py-2 mb-3">

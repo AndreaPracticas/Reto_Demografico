@@ -10,19 +10,20 @@ class ThemeSeeder extends Seeder
     public function run(): void
     {
         $themes = [
-            'Agenda 2030',
-            'Agua y Energía',
-            'Cultura',
-            'Economía y Empleo',
-            'Planificación',
-            'Recuperación',
-            'Transición ecológica',
-            'Reto demográfico',
+            ['name' => 'Agenda 2030',           'icon' => 'agenda2030'],
+            ['name' => 'Agua y Energía',         'icon' => 'aguayenergia'],
+            ['name' => 'Cultura',                'icon' => 'cultura'],
+            ['name' => 'Economía y Empleo',      'icon' => 'economiayempleo'],
+            ['name' => 'Planificación',          'icon' => 'planificacion'],
+            ['name' => 'Recuperación',           'icon' => 'recuperacion'],
+            ['name' => 'Transición ecológica',   'icon' => 'transicionecologica'],
+            ['name' => 'Reto demográfico',       'icon' => 'retodemografico'],
         ];
 
-        foreach ($themes as $index => $name) {
+        foreach ($themes as $theme) {
             DB::table('themes')->insert([
-                'name' => $name,
+                'name'       => $theme['name'],
+                'icon'       => $theme['icon'],
                 'created_at' => now(),
                 'updated_at' => now(),
             ]);

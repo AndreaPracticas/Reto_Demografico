@@ -12,7 +12,7 @@ class Theme extends Model
 
     // enable default timestamp columns (created_at, updated_at)
 
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'icon'];
 
     // A theme has many subthemes
     public function subthemes()

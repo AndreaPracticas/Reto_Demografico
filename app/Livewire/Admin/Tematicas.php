@@ -13,6 +13,7 @@ class Tematicas extends Component
 
     public $theme_id;
     public $name;
+    public $icon = '';
 
     public $trashedIds = [];
 
@@ -30,14 +31,14 @@ class Tematicas extends Component
 
     public function create()
     {
-        $this->reset(['theme_id', 'name']);
+        $this->reset(['theme_id', 'name', 'icon']);
         $this->showModal = true;
     }
 
     public function closeModal()
     {
         $this->showModal = false;
-        $this->reset(['theme_id', 'name']);
+        $this->reset(['theme_id', 'name', 'icon']);
     }
 
     public function edit($id)
@@ -45,6 +46,7 @@ class Tematicas extends Component
         $theme = Theme::withTrashed()->findOrFail($id);
         $this->theme_id = $theme->id;
         $this->name     = $theme->name;
+         $this->icon     = $theme->icon;
         $this->showModal = true;
     }
 
@@ -52,14 +54,18 @@ class Tematicas extends Component
     {
         $this->validate([
             'name' => 'required|string|min:2|unique:themes,name,' . $this->theme_id,
+            'icon' => 'required|string',
         ]);
 
         Theme::updateOrCreate(
             ['id' => $this->theme_id],
-            ['name' => $this->name]
+            [
+                'name' => $this->name,
+                'icon' => $this->icon,
+            ]
         );
 
-        $this->reset(['theme_id', 'name']);
+        $this->reset(['theme_id', 'name', 'icon']);
         $this->showModal = false;
         $this->refreshTrashedIds();
     }

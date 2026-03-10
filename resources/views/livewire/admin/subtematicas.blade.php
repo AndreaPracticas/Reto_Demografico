@@ -45,7 +45,12 @@
             @foreach($subthemes as $subtheme)
             <tr class="border-t {{ in_array($subtheme->id, $trashedIds) ? 'bg-red-50' : '' }}">
                 <td class="p-3">{{ $subtheme->name }}</td>
-                <td class="p-3">{{ $subtheme->theme->name ?? 'N/A' }}</td>
+                <td class="p-3 flex items-center gap-2">
+                    @if($subtheme->theme?->icon)
+                        <x-selectable-icons name="{{ $subtheme->theme->icon }}" class="w-5 h-5 fill-current text-gray-600"/>
+                    @endif
+                    {{ $subtheme->theme->name ?? 'N/A' }}
+                </td>
                 <td class="p-3">{{ $subtheme->created_at->format('d/m/Y') }}</td>
                 <td class="p-3 space-x-2">
                     <button wire:click="edit({{ $subtheme->id }})"

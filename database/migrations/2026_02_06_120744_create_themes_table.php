@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('themes', function (Blueprint $table) {
             $table->id();
             $table->string('name')->unique();
+            $table->string('icon')->nullable()->after('name');
             $table->timestamps();
             $table->softDeletes();
         });
@@ -26,6 +27,7 @@ return new class extends Migration
     {
         Schema::table('themes', function (Blueprint $table) {
             $table->dropSoftDeletes();
+            $table->dropColumn('icon');
         });
         Schema::dropIfExists('themes');
     }

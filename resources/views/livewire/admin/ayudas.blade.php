@@ -34,7 +34,7 @@
         <select wire:model.live="searchSubtheme"
                 class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-white">
             <option value="">Todos los subtemas</option>
-            @foreach($subthemes as $subtheme)
+            @foreach($allSubthemes as $subtheme)
                 <option value="{{ $subtheme->id }}">{{ $subtheme->name }}</option>
             @endforeach
         </select>
@@ -137,7 +137,7 @@
             @error('name') <p class="text-red-500 text-sm mb-2">{{ $message }}</p> @enderror
 
             {{-- Tema --}}
-            <select wire:model="theme_id" class="w-full border rounded px-3 py-2 mb-3">
+            <select wire:model.live="theme_id" class="w-full border rounded px-3 py-2 mb-3">
                 <option value="">Selecciona un tema</option>
                 @foreach($themes as $theme)
                     <option value="{{ $theme->id }}">{{ $theme->name }}</option>
@@ -147,9 +147,11 @@
 
             {{-- Subtema --}}
             <select wire:model="subtheme_id" class="w-full border rounded px-3 py-2 mb-3">
-                <option value="">Selecciona un subtema</option>
+                <option value="">
+                    {{ $theme_id ? 'Selecciona un subtema' : 'Primero selecciona una tema' }}
+                </option>
                 @foreach($subthemes as $subtheme)
-                    <option value="{{ $subtheme->id }}">{{ $subtheme->name }}</option>
+                    <option value="{{ $subtheme['id'] }}">{{ $subtheme['name'] }}</option>
                 @endforeach
             </select>
             @error('subtheme_id') <p class="text-red-500 text-sm mb-2">{{ $message }}</p> @enderror

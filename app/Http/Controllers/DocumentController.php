@@ -12,15 +12,7 @@ class DocumentController extends Controller
         $scope = $request->input('scope', ''); // 'regionales', 'nacionales', 'europeas'
         $topic = $request->query('topic', '');       // Tema seleccionado
 
-        $topics = [
-            'Agenda 2030',
-            'Agua y Energía',
-            'Cultura',
-            'Economía y Empleo',
-            'Planificación',
-            'Recuperación',
-            'Transición ecológica'
-        ];
+        $topics = \App\Models\Theme::orderBy('name')->pluck('name')->toArray();
 
         $query = File::query()->with(['theme', 'scopeRelation']);
 
