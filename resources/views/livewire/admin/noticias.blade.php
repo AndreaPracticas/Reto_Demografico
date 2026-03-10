@@ -79,20 +79,6 @@
 
     </div>
 
-    {{-- Botón limpiar filtros --}}
-    @if($searchTitle || $searchDescription || $searchField || $searchDate)
-    <div class="flex justify-end mb-4">
-        <button
-            wire:click="$set('searchTitle', ''); $set('searchDescription', ''); $set('searchField', ''); $set('searchDate', '')"
-            class="text-sm text-indigo-600 hover:underline flex items-center gap-1">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-            </svg>
-            Limpiar filtros
-        </button>
-    </div>
-    @endif
-
     {{-- Tabla --}}
     <table class="w-full border border-gray-200 rounded-lg overflow-hidden mb-6">
         <thead class="bg-gray-100">
@@ -105,7 +91,7 @@
         </thead>
         <tbody>
             @foreach($noticias as $noticia)
-            <tr class="border-t">
+            <tr class="border-t border-t {{ in_array($noticia->id, $trashedIds) ? 'bg-red-50 text-gray-400' : '' }}">
                 <td class="p-3">{{ $noticia->field->name ?? 'N/A' }}</td>
                 <td class="p-3">{{ $noticia->title }}</td>
                 <td class="p-3">{{ $noticia->created_at->format('d/m/Y') }}</td>

@@ -126,7 +126,7 @@ class NewsSeeder extends Seeder
                 'title' => 'III Encuentro Canarias Sostenible',
                 'description' => 'Accede al documento de 51 medidas que han consensuado más de 100 expertos de los ámbitos públicos y privados para impulsar el desarrollo sostenible en Canaria. La tercera edición de “Encuentro Canarias Sostenible” se desarrolla bajo el lema Islas Responsables: La Nueva ruralidad y está organizada por la Presidencia del Gobierno de Canarias para abordar los desafíos del Reto Demográfico y la Cohesión Territorial.',
                 'image' => 'news/Experiencia_1-1024x528.png',
-                'link' => "{{ asset('storage/files/PROGRAMA-III-ENCUENTRO-CANARIAS-SOSTENIBLE.pdf') }}",
+                'link' => asset('storage/files/PROGRAMA-III-ENCUENTRO-CANARIAS-SOSTENIBLE.pdf'),
                 'created_at' => now(),
                 'updated_at' => now(),
             ],

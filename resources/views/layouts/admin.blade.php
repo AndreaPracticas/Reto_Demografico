@@ -19,7 +19,18 @@
         <nav class="flex-1 px-4 py-6 space-y-2">
             <a href="{{ route('admin.inicio') }}" class="block px-4 py-2 rounded hover:bg-gray-700">Inicio</a>
             <a href="{{ route('admin.noticias') }}" class="block px-4 py-2 rounded hover:bg-gray-700">Noticias</a>
-            <a href="{{ route('admin.ayudas') }}" class="block px-4 py-2 rounded hover:bg-gray-700">Ayudas y Subvenciones</a>
+            <div x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false" class="relative">
+                <a href="{{ route('admin.ayudas') }}"
+                class="block px-4 py-2 rounded hover:bg-gray-700">
+                    Ayudas y Subvenciones
+                </a>
+                <div x-show="open" x-transition class="ml-4 space-y-1">
+                    <a href="{{ route('admin.ayudas.tematicas') }}"
+                    class="block px-4 py-2 rounded hover:bg-gray-600 text-sm text-gray-300">Temáticas</a>
+                    <a href="{{ route('admin.ayudas.subtematicas') }}"
+                    class="block px-4 py-2 rounded hover:bg-gray-600 text-sm text-gray-300">Subtemáticas</a>
+                </div>
+            </div>
             <a href="#" class="block px-4 py-2 rounded hover:bg-gray-700">Usuarios</a>
         </nav>
 

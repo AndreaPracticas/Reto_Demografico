@@ -37,5 +37,6 @@ return new class extends Migration
         Schema::table('news', function (Blueprint $table) {
                 $table->dropSoftDeletes();
             });
+        Schema::dropIfExists('news');
     }
 };

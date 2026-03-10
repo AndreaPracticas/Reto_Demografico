@@ -48,9 +48,13 @@
         </select>
 
         <div class="relative">
-            <label class="text-xs text-gray-500 mb-1 block">Fecha apertura desde</label>
-            <input type="date" wire:model.live="searchDateFrom"
-                class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400">
+            <label class="text-xs text-gray-500 mb-1 block">Estado</label>
+            <select wire:model.live="searchStatus"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-white">
+                <option value="">Todos los estados</option>
+                <option value="abierto">Abierto</option>
+                <option value="cerrado">Cerrado</option>
+            </select>
         </div>
 
         <div class="relative">
@@ -69,8 +73,8 @@
                 <th class="text-left p-3">Tema</th>
                 <th class="text-left p-3">Subtema</th>
                 <th class="text-left p-3">Ámbito</th>
-                <th class="text-left p-3">Apertura</th>
                 <th class="text-left p-3">Cierre</th>
+                <th class="text-left p-3">Estado</th>
                 <th class="text-left p-3">Acciones</th>
             </tr>
         </thead>
@@ -81,15 +85,34 @@
                 <td class="p-3">{{ $file->theme->name ?? 'N/A' }}</td>
                 <td class="p-3">{{ $file->subtheme->name ?? 'N/A' }}</td>
                 <td class="p-3">{{ $file->scopeRelation->name ?? 'N/A' }}</td>
-                <td class="p-3">{{ $file->reopening_date }}</td>
                 <td class="p-3">{{ $file->closing_date }}</td>
+                <td class="p-3">
+                    @php
+                        $ahora = now();
+                        $abierto = $ahora->between(
+                            \Carbon\Carbon::parse($file->reopening_date),
+                            \Carbon\Carbon::parse($file->closing_date)
+                        );
+                    @endphp
+
+                    @if($abierto)
+                        <span class="inline-block px-2 py-1 text-xs font-semibold rounded-full bg-green-100 text-green-700">
+                            Abierto
+                        </span>
+                    @else
+                        <span class="inline-block px-2 py-1 text-xs font-semibold rounded-full bg-red-100 text-red-700">
+                            Cerrado
+                        </span>
+                    @endif
+                </td>
                 <td class="p-3 space-x-2">
+                    <button wire:click="edit({{ $file->id }})"
+                            class="text-blue-600 hover:underline">Editar</button>
+
                     @if(in_array($file->id, $trashedIds))
                         <button wire:click="restore({{ $file->id }})"
                                 class="text-green-600 hover:underline">Restaurar</button>
                     @else
-                        <button wire:click="edit({{ $file->id }})"
-                                class="text-blue-600 hover:underline">Editar</button>
                         <button wire:click="confirmDelete({{ $file->id }})"
                                 class="text-red-600 hover:underline">Eliminar</button>
                     @endif

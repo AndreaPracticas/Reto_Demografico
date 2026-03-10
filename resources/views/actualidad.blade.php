@@ -108,6 +108,60 @@
             </iframe>
         </div>
     </div>
+    <!-- Mujeres rurales frente a la inteligencia artificial generativa -->
+    <div class="w-[1281px] mx-auto mt-25">
+        <div class="flex flex-col md:flex-row w-full p-10 gap-3">
+        
+            <!-- Imagen izquierda -->
+            <div class="w-full md:w-1/2">
+                <img 
+                    src="{{ asset('storage/news/MujeresvsIA.png') }}" 
+                    alt="Mujeres rurales frente a la inteligencia artificial generativa"
+                    class="w-full h-full"
+                >
+            </div>
+
+            <!-- Contenido derecho -->
+            <div class="w-full md:w-1/2 flex flex-col">
+                
+                <!-- Cabecera — imagen a ancho completo -->
+                <img 
+                    src="{{ asset('storage/news/MujeresvsIA2.png') }}" 
+                    alt="Cabecera"
+                    class="w-full h-25"
+                >
+
+                <!-- Links -->
+                <ul class="flex flex-col gap-2 text-[#06073F] text-[15px]">
+                    <li class="flex items-start gap-3 hover:text-blue-900">
+                        <x-selectable-icons name="enlace" class="w-6 h-6 text-blue-600" />
+                        <a href="https://blogs.uned.es/mujerrural-iahu/" target="_blank" class="text-[17px]" style="font-weight: 500;">
+                            Mujeres rurales frente a la inteligencia artificial generativa (MujerRural-IAHu)
+                        </a>
+                    </li>
+                    <li class="flex items-start gap-3 hover:text-blue-900">
+                        <x-selectable-icons name="pdf" class="w-3 h-3 text-blue-600" />
+                        <a href="https://blogs.uned.es/mujerrural-iahu/programa-formativo/" target="_blank" class="text-[17px]" style="font-weight: 500;">
+                            Programa formativo
+                        </a>
+                    </li>
+                    <li class="flex items-start gap-3 hover:text-blue-900">
+                        <x-selectable-icons name="cuestionario" class="w-3 h-3 text-blue-600" />
+                        </svg>
+                        <a href="https://forms.office.com/pages/responsepage.aspx?id=SHBYtXCgrUO2VCCjHpstmTWrvPq-IchIt80-cFOkX8JUQ1gzU1FYR1dVQVo0WEFOMTNBQVpLQ1kzVS4u&route=shorturl" target="_blank" class="text-[17px]" style="font-weight: 500;">
+                            Cuestionario interés y conocimientos previos: Mujeres rurales frente a la IA
+                        </a>
+                    </li>
+                    <li class="flex items-start gap-3 hover:text-blue-900">
+                        <x-selectable-icons name="entrevista" class="w-3 h-3 text-blue-600" />
+                        <a href="https://forms.office.com/pages/responsepage.aspx?id=SHBYtXCgrUO2VCCjHpstmTWrvPq-IchIt80-cFOkX8JURDI4WFdQN1hDRlpEUlFVOUZCNEtGMzFVVC4u&route=shorturl" target="_blank" class="text-[17px]" style="font-weight: 500;">
+                            Entrevista municipios y asociaciones: Mujer rural e IAG (noviembre 2025)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Actividades -->
 <section>

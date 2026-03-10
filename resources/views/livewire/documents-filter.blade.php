@@ -94,7 +94,7 @@
                     </a>
                 @endforeach
             @empty
-                <p class="italic text-gray-400">No hay documentos disponibles.</p>
+                <p class="italic text-gray-400">No hay documentos para la temática seleccionada.</p>
             @endforelse
         </div>
     </div>

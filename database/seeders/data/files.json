@@ -30,6 +30,16 @@
     "fecha_cierre": "2026-02-24 23:59:59"
   },
   {
+    "archivo_real": "57.-FICHA_-4a_CONV_EUI_2026.pdf",
+    "nombre": "CUARTA CONVOCATORIA DE PROPUESTAS EUI (EUROPEAN URBAN INITIATIVE) - ACCIONES INNOVADORAS",
+    "tematica": "Transición ecológica",
+    "subtematica": "Entorno urbano",
+    "ambito": "Europeas",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
     "archivo_real": "3.-FICHA_LIFE_2025_Resumen-General.pdf",
     "nombre": "CONVOCATORIA LIFE 2025",
     "tematica": "Transición ecológica",
@@ -226,8 +236,8 @@
     "subtematica": "Energía",
     "ambito": "Nacionales",
     "usuario_correo": "admin@user.com",
-    "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "fecha_reapertura": "2024-02-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
   },
   {
     "archivo_real": "FICHA_PROY_ENERGIAS_RENOVABLES.pdf",
@@ -256,8 +266,8 @@
     "subtematica": "Energía",
     "ambito": "Nacionales",
     "usuario_correo": "admin@user.com",
-    "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "fecha_reapertura": "2024-02-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
   },
   {
     "archivo_real": "FICHA_020125_PERTE_AGUA.pdf",
@@ -284,6 +294,56 @@
     "nombre": "SEXTA CONVOCATORIA DE SUBVENCIONES DEL NUEVO PROGRAMA DE INCENTIVOS A PROYECTOS PILOTO SINGULARES DE COMUNIDADES ENERGÉTICAS (PROGRAMA CE IMPLEMENTA), EN EL MARCO DEL PRTR",
     "tematica": "Agua y Energía",
     "subtematica": "Energía",
+    "ambito": "Nacionales",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "60.-FICHA_FESTIVALES_CINE_2026.pdf",
+    "nombre": "CONVOCATORIA DE AYUDAS PARA LA ORGANIZACIÓN DE FESTIVALES Y CERTÁMENES CINEMATOGRÁFICOS EN ESPAÑA DURANTE EL AÑO 2026",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
+    "ambito": "Nacionales",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "15.-FICHA_BIOECONOMIA_2025.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES DE LA FUNDACIÓN BIODIVERSIDAD, F.S.P., EN RÉGIMEN DE CONCURRENCIA COMPETITIVA, PARA APOYO A PROGRAMAS Y PROYECTOS DE IMPULSO A LA BIOECONOMÍA, COFINANCIADA POR EL FONDO EUROPEO DE DESARROLLO REGIONAL (FEDER).",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
+    "ambito": "Nacionales",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "Ficha_240112_IMPULSO_ECO_SOCIAL_2024_2025.pdf",
+    "nombre": "[2024] AYUDAS PARA EL PLAN INTEGRAL DE IMPULSO A LA ECONOMÍA SOCIAL PARA LA GENERACIÓN DE UN TEJIDO ECONÓMICO, INCLUSIVO Y SOSTENIBLE, EN EL MARCO DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA. PERTE DE LA ECONOMÍA SOCIAL Y DE LOS CUIDADOS. PERIODO 2024 - 2025 (PERTE Economía Social y de los Cuidados)",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
+    "ambito": "Nacionales",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "FICHA_240326_EMPLEAVERDE.pdf",
+    "nombre": "[2024] SUBVENCIONES PARA LA ADQUISICIÓN O MEJORA DE COMPETENCIAS PARA LA TRANSICIÓN ECOLÓGICA, EN EL MARCO DEL PROGRAMA EMPLEAVERDE+",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
+    "ambito": "Nacionales",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "1.-FICHA_PROGRAMA-EMPLEAVERDE_-2025.pdf",
+    "nombre": "[2025] CONVOCATORIA DE SUBVENCIONES DE LA FUNDACIÓN BIODIVERSIDAD F.S.P. PARA LA ADQUISICIÓN O MEJORA DE COMPETENCIAS VINCULADAS A LA TRANSICIÓN ECOLÓGICA, EN EL MARCO DEL PROGRAMA EMPLEAVERDE+, COFINANCIADO POR EL FONDO SOCIAL EUROPEO PLUS EN 2025",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
     "ambito": "Nacionales",
     "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",
@@ -346,13 +406,13 @@
     "subtematica": "Innovación",
     "ambito": "Nacionales",
     "usuario_correo": "admin@user.com",
-    "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "fecha_reapertura": "2024-02-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
   },
   {
     "archivo_real": "36.-FICHA_RETO_DEMOGRAFICO-EELL.pdf",
     "nombre": "CONVOCATORIA DE SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS INNOVADORES PARA LA TRANSFORMACIÓN TERRITORIAL Y LA LUCHA CONTRA LA DESPOBLACIÓN, PROMOVIDOS POR ENTIDADES LOCALES, DURANTE EL EJERCICIO 2025.",
-    "tematica": "Transición ecológica",
+    "tematica": "Reto demográfico",
     "subtematica": "Reto demográfico",
     "ambito": "Nacionales",
     "usuario_correo": "admin@user.com",
@@ -550,6 +610,26 @@
     "fecha_cierre": "2024-09-30 23:59:59"
   },
   {
+    "archivo_real": "61.-FICHA_FEDAC_AYTOS_GC_2026.pdf",
+    "nombre": "CONVOCATORIA DE SUBVENCIONES EN CONCURRENCIA COMPETITIVA DESTINADAS A AYUNTAMIENTOS Y ENTIDADES SIN ÁNIMO DE LUCRO PARA EL FOMENTO DE LA ARTESANÍA Y LA CULTURA TRADICIONAL DE GRAN CANARIA PARA EL EJERCICIO 2026.",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
+    "ambito": "Regionales",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "63.-FICHA_PROY_CULTURALES_GC_2026.pdf",
+    "nombre": "CONVOCATORIA DE SUBVENCIONES DESTINADA A LOS AYUNTAMIENTOS DE GRAN CANARIA Y SUS ENTIDADES PÚBLICAS DEPENDIENTES PARA LA REALIZACIÓN DE PROYECTOS CULTURALES. ANUALIDAD 2026.",
+    "tematica": "Cultura",
+    "subtematica": "Cultura",
+    "ambito": "Regionales",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2026-03-01 00:00:00",
+    "fecha_cierre": "2026-09-30 23:59:59"
+  },
+  {
     "archivo_real": "FICHA_241114_GESTION_SOSTENIBLE_INFRAESTRUCTURAS_CULTURA.pdf",
     "nombre": "[2024] SUBVENCIONES PARA LA MODERNIZACIÓN Y GESTIÓN SOSTENIBLE DE LAS INFRAESTRUCTURAS DE LAS ARTES ESCÉNICAS Y MUSICALES, EN EL MARCO DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA, FINANCIADO POR LA UNIÓN EUROPEA NEXT GENERATION EU",
     "tematica": "Cultura",
@@ -576,8 +656,8 @@
     "subtematica": "Empleo",
     "ambito": "Regionales",
     "usuario_correo": "admin@user.com",
-    "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "fecha_reapertura": "2024-02-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
   },
   {
     "archivo_real": "54.-FICHA_PROY_EMPLEO_FORM_2026.pdf",
@@ -586,8 +666,8 @@
     "subtematica": "Empleo",
     "ambito": "Regionales",
     "usuario_correo": "admin@user.com",
-    "fecha_reapertura": "2026-02-01 00:00:00",
-    "fecha_cierre": "2026-09-30 23:59:59"
+    "fecha_reapertura": "2024-02-01 00:00:00",
+    "fecha_cierre": "2024-09-30 23:59:59"
   },
   {
     "archivo_real": "45.-FICHA_EMPLEO_CABILDOS-CONV-EXTRA-2025.pdf",
@@ -644,6 +724,16 @@
     "nombre": "[2025] SUBVENCIONES PARA LA CELEBRACIÓN DE CONCURSOS, CERTÁMENES, MUESTRAS Y FERIAS DEL SECTOR PRIMARIO (LÍNEA 4.1). LA PALMA",
     "tematica": "Economía y Empleo",
     "subtematica": "Economía",
+    "ambito": "Regionales",
+    "usuario_correo": "admin@user.com",
+    "fecha_reapertura": "2025-03-01 00:00:00",
+    "fecha_cierre": "2025-09-30 23:59:59"
+  },
+  {
+    "archivo_real": "62.-FICHA_FERIAS_ARTE_AYTOS_TF_2026.pdf",
+    "nombre": "CONVOCATORIA DE SUBVENCIONES A AYUNTAMIENTOS DE LA ISLA DE TENERIFE PARA LA CELEBRACIÓN DE FERIAS MUNICIPALES DE ARTESANÍA (EJERCICIO 2026).",
+    "tematica": "Economía y Empleo",
+    "subtematica": "Comercio y turismo",
     "ambito": "Regionales",
     "usuario_correo": "admin@user.com",
     "fecha_reapertura": "2025-03-01 00:00:00",

@@ -51,7 +51,7 @@ class Noticias extends Component
 
     public function edit($id)
     {
-        $noticia = News::findOrFail($id);
+        $noticia = News::withTrashed()->findOrFail($id);
         $this->field_id    = $noticia->field_id;
         $this->title       = $noticia->title;
         $this->description = $noticia->description;

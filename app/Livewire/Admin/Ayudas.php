@@ -31,6 +31,7 @@ class Ayudas extends Component
     public $closing_date;
     public $reopening_time;
     public $closing_time;
+    public $searchStatus = '';
 
     // Opciones selectores
     public $themes;
@@ -70,7 +71,7 @@ class Ayudas extends Component
 
     public function edit($id)
     {
-        $file = File::findOrFail($id);
+        $file = File::withTrashed()->findOrFail($id);
         $this->file_id        = $file->id;
         $this->name           = $file->name;
         $this->theme_id       = $file->theme_id;
@@ -173,8 +174,19 @@ class Ayudas extends Component
             $query->where('scope_id', $this->searchScope);
         }
 
-        if ($this->searchDateFrom) {
-            $query->where('reopening_date', '>=', $this->searchDateFrom);
+        // if ($this->searchDateFrom) {
+        //     $query->where('reopening_date', '>=', $this->searchDateFrom);
+        // }
+        if ($this->searchStatus === 'abierto') {
+            $query->where('reopening_date', '<=', now())
+                ->where('closing_date', '>=', now());
+        }
+
+        if ($this->searchStatus === 'cerrado') {
+            $query->where(function($q) {
+                $q->where('reopening_date', '>', now())
+                ->orWhere('closing_date', '<', now());
+            });
         }
 
         if ($this->searchDateTo) {

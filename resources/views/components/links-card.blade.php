@@ -21,7 +21,7 @@
     </div>
 
     <a 
-      href="{{ $link }}" 
+      href="{{ $link }}" target="_blank"
       class="block text-black font-bold text-right text-[15px] pt-2"
       >
       {{ $more }}

@@ -33,4 +33,10 @@ Route::prefix('admin')->middleware([AdminMiddleware::class])->group(function () 
 
     Route::get('/ayudasysubvenciones', \App\Livewire\Admin\Ayudas::class)
          ->name('admin.ayudas');
+         
+    Route::get('/ayudasysubvenciones/tematicas', \App\Livewire\Admin\Tematicas::class)
+         ->name('admin.ayudas.tematicas');
+
+    Route::get('/ayudasysubvenciones/subtematicas', \App\Livewire\Admin\Subtematicas::class)
+         ->name('admin.ayudas.subtematicas');
 });

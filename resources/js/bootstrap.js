@@ -1,4 +1,2 @@
-import axios from 'axios';
-window.axios = axios;
-
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+// Axios is not used in this project, so we remove its initialization.
+// If AJAX is needed later, re-add axios and configure it here.
